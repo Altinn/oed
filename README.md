@@ -1,0 +1,2 @@
+# oed
+Oppgjør etter dødsfall
