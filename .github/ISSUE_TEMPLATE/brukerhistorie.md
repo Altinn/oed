@@ -18,6 +18,9 @@ Lenke til trådskisser:
 Lenke til design:
 Lenke til arkitektur:
 
+Godkjent Juridisk (OK // N/A // Ikke godkjent)
+Ikke godkjent
+
 #### Akseptansekriterier (minimum happy-case):
 - bruker skal se....
 - bruker skal bli tatt til...
