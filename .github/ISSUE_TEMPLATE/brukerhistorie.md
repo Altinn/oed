@@ -11,8 +11,8 @@ assignees: ''
 Som en ....
 ønsker jeg å ....
 slik at jeg ...
-#### Forretningsverdi (Kritisk/Viktig/Mindre viktig/Kjekt å ha):
-Kritisk
+#### Forretningsverdi (1-5, der 1 er mest kritisk/viktig og 5 er nice-to-have):
+
 
 Lenke til trådskisser:
 Lenke til design:
