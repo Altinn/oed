@@ -9,6 +9,8 @@ assignees: ''
 
 Aktør involvert:
 
+Knyttet til brukerhistorie:
+
 beskrivelse:
 
 Frist:
