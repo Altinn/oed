@@ -19,20 +19,33 @@ Lenke til trådskisser:
 Lenke til design:
 Lenke til arkitektur:
 
-#### Akseptansekriterier (minimum happy-case):
--[ ] bruker skal se....
--[ ] bruker skal bli tatt til...
+#### Krav/Akseptansekriterier som testscenarier(minimum happy-case):
+Gitt at.. 
+når...
+så... 
+og....
 
-#### Avklaring for å få realisere denne brukerhistorien:
--[ ] ...
--[ ] ...
+Gitt at.. 
+når...
+så... 
+og....
 
-#### Testscenario:
-Tittel:
-Gitt at...
-og...
-når..
-så...
+GUI
+Status: (ok, under avklaring, n/a):
+Avklaringsområder:
+- [ ] avklaring 
 
+Teknisk
+Status(ok, under avklaring, n/a):
+Avklaringsområder:
+- [ ] avklaring
+Dokumentasjon:
 
+Juridisk
+Status(ok, under avklaring, n/a):
+Avklaringsområder:
+- [ ] avklaring
+Dokumentasjon:
+
+Risiko
 #### SCENERAIO X Akseptansekriterier (minimum happy-case):
