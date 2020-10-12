@@ -7,46 +7,64 @@ assignees: ''
 
 ---
 
-test
-#### Brukerhistorie:
-Som en ....
-ønsker jeg å ....
-slik at jeg ...
+#### Brukerhistorie
+**Intro**
+Som  .... 
+ønsker jeg ...
+slik at ...
 
-#### Forretningsverdi (1-5, der 1 er mest kritisk/viktig og 5 er nice-to-have):
-
-
-Lenke til trådskisser:
-Lenke til design:
-Lenke til arkitektur:
-
-#### Krav/Akseptansekriterier som testscenarier(minimum happy-case):
-Gitt at.. 
-når...
+**Krav/akseptansekriterier**  _(detaljering av BH med tilhørende akseptansekriterier)_
+Gitt at.. jeg har logget inn i Altinn Dødsbo
+Når ...
 så... 
-og....
+og...
 
-Gitt at.. 
-når...
-så... 
-og....
+**Utfyllende tekst**
 
-GUI
+
+---
+### Utfyllende informasjon
+**Funksjonelt**
+Status (ok, under avklaring, n/a): 
+Avklaringsområder: 
+Dokumentasjon:
+
+**GUI**
 Status: (ok, under avklaring, n/a):
 Avklaringsområder:
-- [ ] avklaring 
+Dokumentasjon: 
 
-Teknisk
-Status(ok, under avklaring, n/a):
+**Teknisk**
+Status(ok, under avklaring, n/a): 
 Avklaringsområder:
-- [ ] avklaring
 Dokumentasjon:
 
-Juridisk
-Status(ok, under avklaring, n/a):
+**Juridisk**
+Status(ok, under avklaring, n/a): 
 Avklaringsområder:
-- [ ] avklaring
 Dokumentasjon:
 
-Risiko
-#### SCENERAIO X Akseptansekriterier (minimum happy-case):
+---
+### Prioriteringskriterier produktkø
+Funksjonell viktighet (må, bør, vent): 
+Teknisk modenhet (høy, medium, lav): 
+Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na): 
+
+---
+### Estimat
+Grov, ved innleggelse i produktkø, dv ( 60-31, 30-11,10-3, >3): 
+Estimat (sprint til akseptansetest): 
+
+---
+### Forslag nye brukerhistorier (opprettes før denne bh lukkes):
+
+---
+### Åpne punkter - lukkes før sprint
+
+---
+### Annet
+
+---
+### Scenario X _Opprettes før lukking av denne BH_
+
+###Forslag nye brukerhistorier Scenario X (MVP)
