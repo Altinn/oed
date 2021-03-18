@@ -1,1 +1,117 @@
-HELLO WORLD
+{
+  "language": "nb",
+  "resources": [
+    {
+      "id": "Aktiviteter",
+      "value": "Aktiviteter"
+    },
+    {
+      "id": "Arvinger",
+      "value": "Arvinger"
+    },
+    {
+      "id": "AvslutteBoet",
+      "value": "Avslutte boet"
+    },
+    {
+      "id": "Bank",
+      "value": "Bank"
+    },
+    {
+      "id": "DineOppgaverInfo",
+      "value": "Signere og godta oppgjør"
+    },
+    {
+      "id": "DineOppgaverTitle",
+      "value": "Dine oppgaver i boet"
+    },
+    {
+      "id": "DineRettigheter",
+      "value": "Dine rettigheter"
+    },
+    {
+      "id": "Eiendom",
+      "value": "Eiendom"
+    },
+    {
+      "id": "FormueOgGjeldBank",
+      "value": "Bank"
+    },
+    {
+      "id": "FormueOgGjeldInfo1",
+      "value": "Formue og gjeld i boet"
+    },
+    {
+      "id": "FormueOgGjeldInfo2",
+      "value": "Dette er ikke en komplett oversikt. Du er selv ansvarlig for å finne ut om det foreligger andre kredittkort eller smålån."
+    },
+    {
+      "id": "Forsikring",
+      "value": "Forsikring"
+    },
+    {
+      "id": "GjennomforeArveoppgjoret",
+      "value": "Gjennomføre arveoppgjøret"
+    },
+    {
+      "id": "Kjøretøy",
+      "value": "Kjøretøy"
+    },
+    {
+      "id": "NyttigLinkHvaErEtDoedsbo",
+      "value": "Hva er et dødsbo?"
+    },
+    {
+      "id": "NyttigLinkHvaErPrivatSkifte",
+      "value": "Hva er privat skifte?"
+    },
+    {
+      "id": "NyttigLinkHvaErUskiftetBo",
+      "value": "Hva er uskiftet bo?"
+    },
+    {
+      "id": "NyttigLinkStegForSteg",
+      "value": "Arveoppgjøret steg for steg"
+    },
+    {
+      "id": "NyttigeLenker",
+      "value": "Nyttige lenker"
+    },
+    {
+      "id": "RettTilArvInfo1",
+      "value": "Rett til arv i boet"
+    },
+    {
+      "id": "RettTilArvInfo2",
+      "value": "Dette avgjør fordeling av arv i boet"
+    },
+    {
+      "id": "ServiceName",
+      "value": "Oppgjør etter dødsfall"
+    },
+    {
+      "id": "SignereOgGodta",
+      "value": "Signere og godta"
+    },
+    {
+      "id": "Skatt",
+      "value": "Skatt"
+    },
+    {
+      "id": "Testamente",
+      "value": "Testamente"
+    },
+    {
+      "id": "TitleInfo",
+      "value": "Få oversikt over boets formue og gjeld før du godtar oppgjør."
+    },
+    {
+      "id": "TitleText",
+      "value": "Oppgjør etter"
+    },
+    {
+      "id": "VelgeFullmektig",
+      "value": "Velge fullmektig"
+    }
+  ]
+}
