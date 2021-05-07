@@ -8,12 +8,17 @@ assignees: ''
 ---
 
 #### Brukerhistorie
-**Intro**
 Som ...
 ønsker jeg å ....
 slik at ...
 
-**Krav/akseptansekriterier**  _(detaljering av BH med tilhørende akseptansekriterier)_
+**Funksjonelle Krav/akseptansekriterier** 
+Gitt at..
+Når ...
+så skal ... 
+og... 
+
+**Kvalitetskrav/akseptansekriterier** 
 Gitt at..
 Når ...
 så skal ... 
@@ -43,11 +48,10 @@ Status(ok, under avklaring, n/a):
 Avklaringsområder:
 Dokumentasjon:
 
----
-### Prioriteringskriterier produktkø
-Funksjonell viktighet (må, bør, vent): 
-Teknisk modenhet (høy, medium, lav): 
-Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na): 
+**Test**
+Systemtest i sprint: 
+Akseptanse sprint:
+Integrasjonstest (sprint):
 
 ---
 ### Estimat
@@ -55,11 +59,10 @@ Grov, ved innleggelse i produktkø, dv ( 60-31, 30-11,10-3, >3):
 Estimat (sprint til akseptansetest): dv
 
 ---
-### Forslag nye brukerhistorier (scenarie 1):
-
+### Åpne punkter - lukkes før sprint
 
 ---
-### Åpne punkter - lukkes før sprint
+### Forslag nye brukerhistorier (scenarie 1):
 
 ---
 ### Annet
