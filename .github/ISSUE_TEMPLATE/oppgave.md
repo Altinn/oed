@@ -1,16 +1,16 @@
 ---
-name: Oppgave
-about: Alle oppgaver som kan knyttes til arbeid rundt brukerhistorier
+name: Juridisk oppgave
+about: Oppgaver og utredninger knyttet til juridiskarbeid
 title: ''
-labels: Oppgave
+labels: Oppgave Juridisk
 assignees: ''
 
 ---
 
-#### Relatert til brukerhistorie: 
-
+### Tittel
 
 #### Hva skal gjøres?
 - [ ] ..
 - [ ] ..
 - [ ] ..
+
