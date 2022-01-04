@@ -12,6 +12,12 @@ assignees: ''
 > ønsker jeg å ....
 > slik at ...
 
+### Akseptansekriterier
+Gitt at..
+Når ...
+så skal ... 
+og... 
+
 ### Løsningsbeskrivelse
 
 ### Utfyllende informasjon
@@ -36,9 +42,7 @@ Status(ok, under avklaring, n/a):
 Avklaringsområder:
 Dokumentasjon:
 
-### Akseptansekriterier
-Gitt at..
-Når ...
-så skal ... 
-og... 
-
+### Prioriteringskriterier produktkø
+Funksjonell viktighet (må, bør, vent):
+Teknisk modenhet (høy, medium, lav):
+Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na):
