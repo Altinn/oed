@@ -6,11 +6,10 @@ labels: Brukerhistorie
 assignees: ''
 
 ---
-
 ### Brukerhistorie
-> Som ...
-> ønsker jeg å ....
-> slik at ...
+Som ...
+ønsker jeg å ....
+slik at ...
 
 ### Akseptansekriterier
 Gitt at..
@@ -18,31 +17,48 @@ Når ...
 så skal ... 
 og... 
 
-### Løsningsbeskrivelse
+### Utfyllende tekst
+..
 
+---
 ### Utfyllende informasjon
-
 **Funksjonelt**
-Status (ok, under avklaring, n/a):
-Avklaringsområder:
+Status (ok, under avklaring, n/a): 
+Avklaringsområder: 
 Dokumentasjon
 
 **GUI**
 Status: (ok, under avklaring, n/a):
 Avklaringsområder:
-Dokumentasjon:
+Dokumentasjon: 
 
 **Teknisk**
-Status(ok, under avklaring, n/a):
+Status(ok, under avklaring, n/a): 
 Avklaringsområder:
 Dokumentasjon:
 
 **Juridisk**
-Status(ok, under avklaring, n/a):
+Status(ok, under avklaring, n/a): 
 Avklaringsområder:
 Dokumentasjon:
 
+**Test**
+Systemtest i sprint: 
+Akseptanse sprint:
+Integrasjonstest (sprint):
+
+---
+### Estimat
+Grov, ved innleggelse i produktkø, dv ( 60-31, 30-11,10-3, >3): 
+Estimat (sprint til akseptansetest): dv
+
+---
 ### Prioriteringskriterier produktkø
 Funksjonell viktighet (må, bør, vent):
 Teknisk modenhet (høy, medium, lav):
 Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na):
+
+---
+### Annet
+
+
