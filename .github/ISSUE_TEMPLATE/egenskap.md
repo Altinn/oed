@@ -58,14 +58,4 @@ Integrasjonstest (sprint):
 Grov, ved innleggelse i produktkø, dv ( 60-31, 30-11,10-3, >3): 
 Estimat (sprint til akseptansetest): dv
 
----
-### Åpne punkter - lukkes før sprint
 
----
-### Forslag nye brukerhistorier (scenarie 1):
-
----
-### Annet
-
----
-### Forslag nye bh scenarie 2+
