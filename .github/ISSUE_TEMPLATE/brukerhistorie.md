@@ -12,7 +12,13 @@ Som ...
 slik at ...
 
 ### Akseptansekriterier
-hei Gitt at..
+Gitt at..
+Når ...
+så skal ... 
+og... 
+
+**Kvalitetskrav/akseptansekriterier** 
+Gitt at..
 Når ...
 så skal ... 
 og... 
@@ -42,10 +48,10 @@ Status(ok, under avklaring, n/a):
 Avklaringsområder:
 Dokumentasjon:
 
-**Test**
-Systemtest i sprint: 
-Akseptanse sprint:
-Integrasjonstest (sprint):
+**Test (sprint)**
+Akseptansetest bh (ok ev avvik):
+Systemtest (ok ev avik?): 
+Integrasjonstest (ok ev avvik):
 
 ---
 ### Estimat
@@ -60,5 +66,3 @@ Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na):
 
 ---
 ### Annet
-
-
