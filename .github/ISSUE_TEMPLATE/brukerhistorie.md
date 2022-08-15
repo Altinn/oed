@@ -65,4 +65,25 @@ Teknisk modenhet (høy, medium, lav):
 Samarbeidspartnere tilgjengelig (klar, under avklaring, nei, na):
 
 ---
-### Annet
+### Test (sprint)
+**Funksjonelt**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
+
+**System**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
+
+**Integrasjon**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
+
