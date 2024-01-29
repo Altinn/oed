@@ -6,6 +6,7 @@ labels: Brukerhistorie
 assignees: ''
 
 ---
+
 ### Brukerhistorie
 Som ...
 ønsker jeg å ....
@@ -86,4 +87,3 @@ Avvik:
 - [ ] nn
 - [ ] nn
 - [ ] nn
-

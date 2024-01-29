@@ -48,14 +48,30 @@ Status(ok, under avklaring, n/a):
 Avklaringsområder:
 Dokumentasjon:
 
-**Test**
-Systemtest i sprint: 
-Akseptanse sprint:
-Integrasjonstest (sprint):
+---
+### Test (sprint)
+**Funksjonelt**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
+
+**System**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
+
+**Integrasjon**
+Akseptert (j/n): 
+Avvik:
+- [ ] nn
+- [ ] nn
+- [ ] nn
 
 ---
 ### Estimat
 Grov, ved innleggelse i produktkø, dv ( 60-31, 30-11,10-3, >3): 
 Estimat (sprint til akseptansetest): dv
-
-
