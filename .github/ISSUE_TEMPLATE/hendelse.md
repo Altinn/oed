@@ -1,0 +1,34 @@
+name: Rapport om hendelse
+description: Rapporter en hendelse
+title: "INCIDENT - [Tittel]"
+labels: ["Incident-Report"]
+type: "Task"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Legg inn en kort beskrivende tittel på hva problemet er i feltet 'Title'
+  - type: textarea
+    id: beskrivelse
+    attributes:
+      label: Beskrivelse
+      description: Gi en kort beskrivelse av hva som har skjedd
+      placeholder: Eksempel - Klokken 14:30 kom det melding fra X om at Y hadde stoppet opp. Jeg har ikke klart å finne ut hva som er galt og trenger hjelp til dette.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Kategori
+      description: Kategoriser hendelsen
+      options:
+        - Alvorlig - INCIDENT-A
+        - Middels - INCIDENT-B
+        - Lav - INCIDENT-C
+    validations:
+      required: true
+  - type: textarea
+    id: Varsling
+    attributes:
+      label: Varsling?
+      placeholder: Er det behov for varsling? Kom gjerne med forslag til ønsket varslingstekst
