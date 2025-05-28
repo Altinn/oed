@@ -1,13 +1,13 @@
 name: Rapport om hendelse
 description: Rapporter en hendelse
 title: "INCIDENT - [Tittel]"
-labels: ["Incident-Report"]
+labels: ["Incident"]
 type: "Task"
 body:
   - type: markdown
     attributes:
       value: |
-        Legg inn en kort beskrivende tittel på hva problemet er i feltet 'Title'
+        Legg inn en kort beskrivende tittel på hva problemet er i feltet 'Tittel'
   - type: textarea
     id: beskrivelse
     attributes:
