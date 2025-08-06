@@ -72,6 +72,10 @@ flowchart TB
     click A3Authz "https://github.com/Altinn/altinn-authorization" "Gå til Github - Altinn autorisasjon" _blank
     click A3Events "https://github.com/Altinn/altinn-events" "Gå til Github - Altinn Events" _blank
     click AdminApp "https://github.com/Altinn/oed-admin" "Gå til Github - Admin" _blank
+    click TestApp "https://github.com/Altinn/oed-testdata-app" "Gå til Github - Testdata" _blank
+    click E2E "https://github.com/altinn/dd-e2e-test/" "Gå til Github - E2E" _blank
+    click DDInfra "https://github.com/Altinn/dd-infrastructure/" "Gå til Github - Infrastruktur" _blank
+    click Msging "https://github.com/Altinn/oed-messaging" "Gå til Github - Korrespondanse bibliotek" _blank
 
     %% 🎨 Styles
     classDef altinn3 fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
