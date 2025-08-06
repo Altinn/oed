@@ -34,9 +34,17 @@ flowchart TB
 
     %% 🟨 Digitalt Dødsbo
     subgraph DD[Digitalt Dødsbo]
+        TestApp[🔗 Testdata]
+        E2E[🔗 E2E test]
+        DDInfra[🔗 DD Infra]
+        Msging[🔗 Korrespondanse bibliotek]
+        TestApp ~~~ E2E ~~~ DDInfra ~~~ Msging
+        MetaDb ~~~ DDAuthz
+        MetaDb ~~~ TaskQ
+        DDAuthz ~~~ Feedpoller
         AdminApp[🔗 Admin]-->MetaDb
         MetaDb[(Metadata database)]
-        DD3Authz[🔗 DD Authz]
+        DDAuthz[🔗 DD Authz]
         TaskQ[(TaskQueue)]
         Feedpoller[🔗 Feedpoller og proxy]
     end
@@ -44,9 +52,8 @@ flowchart TB
     %% 🔁 Flow
     User -- Logger inn --> A3Authz --> Inbox --> AltinnMsg --> Estate
     Estate --> TaskQ
-
     Estate -- Autoriserer bruker --> A3Authz
-    A3Authz -- Henter roller --> DD3Authz
+    A3Authz & Estate -- Henter roller --> DDAuthz
     Estate --> Declaration -- Publiser sent-event --> A3Events
     DA_Node -- Henter skifteerklæring --> Estate
 
@@ -59,7 +66,7 @@ flowchart TB
     %% 🔗 Clickable links
     click Estate "https://altinn.studio/repos/digdir/oed" "Gå til Gitea - Digitalt Dødsbo" _blank
     click Declaration "https://altinn.studio/repos/digdir/oed-declaration" "Gå til Gitea - Skifteerklæring" _blank
-    click DD3Authz "https://github.com/Altinn/oed-authz" "Gå til Github - A3Authz" _blank
+    click DDAuthz "https://github.com/Altinn/oed-authz" "Gå til Github - A3Authz" _blank
     click DDEvents "https://altinn.studio/repos/digdir/oed-events" "Gå til Gitea - Events" _blank
     click Feedpoller "https://github.com/Altinn/oed-feedpoller" "Gå til Github - Feedpoller" _blank
     click A3Authz "https://github.com/Altinn/altinn-authorization" "Gå til Github - Altinn autorisasjon" _blank
@@ -74,29 +81,8 @@ flowchart TB
     classDef user fill:#fff
 
     class Altinn,Inbox,A3Events,A3Authz,AltinnMsg,A2Correspondance altinn3
-    class Estate,TaskQ,Declaration,DDEvents,Feedpoller,DD3Authz,AdminApp,MetaDb dd
+    class Estate,TaskQ,Declaration,DDEvents,Feedpoller,DDAuthz,AdminApp,MetaDb,TestApp,E2E,DDInfra,Msging dd
     class DA_Node,DAFeed da
     class ArchiveSystem arkiv
     class User user
-```
-```mermaid
-flowchart TB
-    %% 🟨 Digitalt Dødsbo
-    subgraph DD [Digitalt Dødsbo apper]
-        direction TB
-        TestApp[🔗 Testdata]
-        E2E[🔗 E2E test]
-        DDInfra[🔗 DD Infra]
-        Msging[🔗 Korrespondanse bibliotek]
-    end
-
-    click TestApp "https://github.com/Altinn/oed-testdata-app" "Gå til Github - Testdata"
-    click E2E "https://github.com/Altinn/dd-e2e-test" "Gå til Github - E2E test"
-    click DDInfra "https://github.com/Altinn/dd-infrastructure" "Gå til Github - Infrastruktur"
-    click DDInfra "https://github.com/Altinn/dd-infrastructure" "Gå til Github - Infrastruktur"
-    click Msging "https://github.com/Altinn/oed-messaging" "Gå til Github - Korrespondanse bibliotek"
-
-    classDef dd fill:#1e3a8a,stroke:#9ca3af,stroke-width:2px,color:#fff;
-    class AdminApp,TestApp,E2E,DDInfra,Msging,MetaDb dd
-
 ```
