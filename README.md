@@ -23,14 +23,10 @@ flowchart TB
         Estate[🔗 Oppgjør etter dødsfall]
         Declaration[🔗 Skifteerklæring]
         DDEvents[🔗 oed-events]
-
         A3Events --> DA_Node
     end
 
-    %% 🟦 Altinn 2
-    subgraph Altinn2 [Altinn 2]
-        A2Correspondance[Altinn 2 Korrespondanse]
-    end
+    
 
     %% 🟨 Digitalt Dødsbo
     subgraph DD[Digitalt Dødsbo]
@@ -48,7 +44,12 @@ flowchart TB
         TaskQ[(TaskQueue)]
         Feedpoller[🔗 Feedpoller og proxy]
     end
-
+    
+    %% 🟦 Altinn 2
+    subgraph Altinn2 [Altinn 2]
+        A2Correspondance[Altinn 2 Korrespondanse]
+    end
+    
     %% 🔁 Flow
     User -- Logger inn --> A3Authz --> Inbox --> AltinnMsg --> Estate
     Estate --> TaskQ
