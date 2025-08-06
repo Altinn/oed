@@ -1,12 +1,12 @@
 # oed
-Oppgjør etter dødsfall - Digitalt Dødsbo
+Oppgjør etter dødsfall
 
 Blå betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
 
 ```mermaid
 flowchart TB
     %% 👤 User
-    User@{ img: "https://api.iconify.design/fluent-color:person-32.svg", pos: "b", label: "Bruker", w: 60, h: 60, constraint: "on" }
+    User@{ img: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/regular/user.svg", pos: "b", label: "Bruker", w: 60, h: 60, constraint: "on" }
 
     %% 🟥 Domstol administrasjonen
     subgraph DA [Domstol administrasjonen]
@@ -71,12 +71,13 @@ flowchart TB
     classDef dd fill:#1e3a8a,stroke:#9ca3af,stroke-width:2px,color:#fff;
     classDef da fill:#7f1d1d,stroke:#f87171,stroke-width:2px,color:#fff;
     classDef arkiv fill:#065f46,stroke:#34d399,stroke-width:2px,color:#fff;
+    classDef user fill:#fff
 
     class Altinn,Inbox,A3Events,A3Authz,AltinnMsg,A2Correspondance altinn3
     class Estate,TaskQ,Declaration,DDEvents,Feedpoller,DD3Authz,AdminApp,MetaDb dd
     class DA_Node,DAFeed da
     class ArchiveSystem arkiv
-
+    class User user
 ```
 ```mermaid
 flowchart TB
