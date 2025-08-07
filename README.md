@@ -107,12 +107,12 @@ flowchart TB
    
 
     %% 🎨 Styles
-    classDef altinn3 fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
-    classDef dd fill:#025fa6,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef da fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
+    classDef altinn3 fill:#4b5563,stroke:#95acc9,stroke-width:2px,color:#fff;
+    classDef dd fill:#025fa6,stroke:##b0d8f7,stroke-width:2px,color:#fff;
+    classDef da fill:#4b5563,stroke:#95acc9,stroke-width:2px,color:#fff;
     classDef arkiv fill:#065f46,stroke:#34d399,stroke-width:2px,color:#fff;
     classDef user fill:#fff;
-    classDef dan fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
+    classDef dan fill:#4b5563,stroke:#95acc9,stroke-width:2px,color:#fff;
     classDef sg fill:#;
 
     class Altinn2,Altinn3 sg
