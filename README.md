@@ -15,14 +15,23 @@ flowchart TB
     
     %% DAN (data.altinn.no)
     subgraph DAN ["DAN (data.altinn.no)"]
-        BankKf["Bits - 'Kundeforhold'"]
-        BankKd["Bits - 'Kontodetaljer'"]
-        BankKt["Bits - 'Kontotransaksjoner'"]
-        SVV["SVV - 'Kjoretoy'"]
-        Kartverket["Kartverket - 'Grunnbok'"]
-        NorskPensjon["Norsk pensjon - 'NorskPensjon'"]
-        MarriagePact["Løsøreregisteret - 'Ektepakt'"]
-        Frreg["Folkeregisteret - 'FregPerson'"]
+        BankKf["🔗 Bits - 'Kundeforhold'"]
+        BankKd["🔗 Bits - 'Kontodetaljer'"]
+        BankKt["🔗 Bits - 'Kontotransaksjoner'"]
+        SVV["🔗 SVV - 'Kjoretoy'"]
+        Kartverket["🔗 Kartverket - 'Grunnbok'"]
+        NorskPensjon["🔗 Norsk pensjon - 'NorskPensjon'"]
+        MarriagePact["🔗 Løsøreregisteret - 'Ektepakt'"]
+        Frreg["🔗 Folkeregisteret - 'FregPerson'"]
+        click BankKf "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L61" "Gå til Github - Kundeforhold" _blank
+        click BankKd "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L79" "Gå til Github - Kontodetaljer" _blank
+        click BankKt "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L70" "Gå til Github - Kontotransaksjoner" _blank
+        click SVV "https://github.com/data-altinn-no/plugin-statensvegvesen" "Gå til Github - SVV" _blank
+        click Kartverket "https://github.com/data-altinn-no/plugin-kartverket" "Gå til Github - Kartverket" _blank
+        click MarriagePact "https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/Ektepakt.cs#L66" "Gå til Github - Ektepakt" _blank
+        click NorskPensjon "https://github.com/data-altinn-no/plugin-pensjon" "Gå til Github - Norskpensjon" _blank
+        click Frreg "https://github.com/data-altinn-no/plugin-skatteetaten/blob/main/src/Dan.Plugin.Skatteetaten/Freg.cs#L97" "Gå til Github - Folkeregisteret" _blank
+
         BankKf ~~~ BankKd
         BankKt ~~~ SVV
         Kartverket ~~~ NorskPensjon
@@ -35,15 +44,24 @@ flowchart TB
         E2E[🔗 E2E test]
         DDInfra[🔗 DD Infra]
         Msging[🔗 Korrespondanse bibliotek]
-        TestApp ~~~ E2E ~~~ DDInfra ~~~ Msging
-        MetaDb ~~~ DDAuthz
-        MetaDb ~~~ TaskQ
-        DDAuthz ~~~ Feedpoller
-        AdminApp[🔗 Admin]-->MetaDb
         MetaDb[(Metadata database)]
         DDAuthz[🔗 DD Authz]
         TaskQ[(TaskQueue)]
         Feedpoller[🔗 Feedpoller og proxy]
+        AdminApp[🔗 Admin]
+        click TestApp "https://github.com/Altinn/oed-testdata-app" "Gå til Github - Testdata" _blank
+        click E2E "https://github.com/altinn/dd-e2e-test/" "Gå til Github - E2E" _blank
+        click DDInfra "https://github.com/Altinn/dd-infrastructure/" "Gå til Github - Infrastruktur" _blank
+        click DDAuthz "https://github.com/Altinn/oed-authz" "Gå til Github - A3Authz" _blank
+        click Feedpoller "https://github.com/Altinn/oed-feedpoller" "Gå til Github - Feedpoller" _blank
+        click Msging "https://github.com/Altinn/oed-messaging" "Gå til Github - Korrespondanse bibliotek" _blank
+        click AdminApp "https://github.com/Altinn/oed-admin" "Gå til Github - Admin" _blank
+
+        TestApp ~~~ E2E ~~~ DDInfra ~~~ Msging
+        MetaDb ~~~ DDAuthz
+        MetaDb ~~~ TaskQ
+        DDAuthz ~~~ Feedpoller
+        AdminApp-->MetaDb
     end
 
     %% Altinn 3
@@ -55,6 +73,11 @@ flowchart TB
         Estate[🔗 Oppgjør etter dødsfall]
         Declaration[🔗 Skifteerklæring]
         DDEvents[🔗 oed-events]
+        click A3Authz "https://github.com/Altinn/altinn-authorization" "Gå til Github - Altinn autorisasjon" _blank
+        click A3Events "https://github.com/Altinn/altinn-events" "Gå til Github - Altinn Events" _blank
+        click Estate "https://altinn.studio/repos/digdir/oed" "Gå til Gitea - Digitalt Dødsbo" _blank
+        click Declaration "https://altinn.studio/repos/digdir/oed-declaration" "Gå til Gitea - Skifteerklæring" _blank
+        click DDEvents "https://altinn.studio/repos/digdir/oed-events" "Gå til Gitea - Events" _blank
     end
 
     %% Domstol administrasjonen
@@ -81,18 +104,7 @@ flowchart TB
     Estate --> DAN
 
     %%  Clickable links
-    click Estate "https://altinn.studio/repos/digdir/oed" "Gå til Gitea - Digitalt Dødsbo" _blank
-    click Declaration "https://altinn.studio/repos/digdir/oed-declaration" "Gå til Gitea - Skifteerklæring" _blank
-    click DDAuthz "https://github.com/Altinn/oed-authz" "Gå til Github - A3Authz" _blank
-    click DDEvents "https://altinn.studio/repos/digdir/oed-events" "Gå til Gitea - Events" _blank
-    click Feedpoller "https://github.com/Altinn/oed-feedpoller" "Gå til Github - Feedpoller" _blank
-    click A3Authz "https://github.com/Altinn/altinn-authorization" "Gå til Github - Altinn autorisasjon" _blank
-    click A3Events "https://github.com/Altinn/altinn-events" "Gå til Github - Altinn Events" _blank
-    click AdminApp "https://github.com/Altinn/oed-admin" "Gå til Github - Admin" _blank
-    click TestApp "https://github.com/Altinn/oed-testdata-app" "Gå til Github - Testdata" _blank
-    click E2E "https://github.com/altinn/dd-e2e-test/" "Gå til Github - E2E" _blank
-    click DDInfra "https://github.com/Altinn/dd-infrastructure/" "Gå til Github - Infrastruktur" _blank
-    click Msging "https://github.com/Altinn/oed-messaging" "Gå til Github - Korrespondanse bibliotek" _blank
+   
 
     %% 🎨 Styles
     classDef altinn3 fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
