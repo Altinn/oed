@@ -1,34 +1,35 @@
 # oed
 Oppgjør etter dødsfall
 
-Blå betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
+Lysegul betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
 
 ```mermaid
 flowchart TB
     %% 👤 User
     User@{ img: "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/regular/user.svg", pos: "b", label: "Bruker", w: 60, h: 60, constraint: "on" }
 
-    %% 🟥 Domstol administrasjonen
-    subgraph DA [Domstol administrasjonen]
-        DAFeed[Hendelseslista]
-        DA_Node[Domstol Administrasjonen]
+    %% Altinn 2
+    subgraph Altinn2 [Altinn 2]
+        A2Correspondance[Altinn 2 Korrespondanse]
     end
-
-    %% 🟦 Altinn 3
-    subgraph Altinn3 [Altinn 3]
-        A3Authz[🔗 Altinn Autorisasjon]
-        A3Events[🔗 Altinn 3 Event systemet]
-        Inbox[Innboks]
-        AltinnMsg[Altinn Melding]
-        Estate[🔗 Oppgjør etter dødsfall]
-        Declaration[🔗 Skifteerklæring]
-        DDEvents[🔗 oed-events]
-        A3Events --> DA_Node
-    end
-
     
+    %% DAN (data.altinn.no)
+    subgraph DAN ["DAN (data.altinn.no)"]
+        BankKf["Bits - 'Kundeforhold'"]
+        BankKd["Bits - 'Kontodetaljer'"]
+        BankKt["Bits - 'Kontotransaksjoner'"]
+        SVV["SVV - 'Kjoretoy'"]
+        Kartverket["Kartverket - 'Grunnbok'"]
+        NorskPensjon["Norsk pensjon - 'NorskPensjon'"]
+        MarriagePact["Løsøreregisteret - 'Ektepakt'"]
+        Frreg["Folkeregisteret - 'FregPerson'"]
+        BankKf ~~~ BankKd
+        BankKt ~~~ SVV
+        Kartverket ~~~ NorskPensjon
+        MarriagePact ~~~ Frreg
+    end
 
-    %% 🟨 Digitalt Dødsbo
+    %% Digitalt Dødsbo
     subgraph DD[Digitalt Dødsbo]
         TestApp[🔗 Testdata]
         E2E[🔗 E2E test]
@@ -44,27 +45,42 @@ flowchart TB
         TaskQ[(TaskQueue)]
         Feedpoller[🔗 Feedpoller og proxy]
     end
-    
-    %% 🟦 Altinn 2
-    subgraph Altinn2 [Altinn 2]
-        A2Correspondance[Altinn 2 Korrespondanse]
+
+    %% Altinn 3
+    subgraph Altinn3 [Altinn 3]
+        A3Authz[🔗 Altinn Autorisasjon]
+        A3Events[🔗 Altinn 3 Event systemet]
+        Inbox[Innboks]
+        AltinnMsg[Altinn Melding]
+        Estate[🔗 Oppgjør etter dødsfall]
+        Declaration[🔗 Skifteerklæring]
+        DDEvents[🔗 oed-events]
     end
-    
-    %% 🔁 Flow
+
+    %% Domstol administrasjonen
+    subgraph DA [Domstol administrasjonen]
+        DAFeed[Hendelseslista]
+        DA_Node[Domstol Administrasjonen]
+    end
+
+    Altinn2 ~~~ DAN
+    %% Flow
     User -- Logger inn --> A3Authz --> Inbox --> AltinnMsg --> Estate
     Estate --> TaskQ
     Estate -- Autoriserer bruker --> A3Authz
     A3Authz & Estate -- Henter roller --> DDAuthz
     Estate --> Declaration -- Publiser sent-event --> A3Events
     DA_Node -- Henter skifteerklæring --> Estate
+    A3Events --> DA_Node
 
     Feedpoller -- Poll hvert 5. minutt --> DDEvents
     DDEvents -- Henter hendelsesliste --> DAFeed
     DDEvents -- Publiser CloudEvents --> A3Events
     A3Events <--> Estate --> MetaDb
     TaskQ -- Send korrespondanse --> A2Correspondance --> User
+    Estate --> DAN
 
-    %% 🔗 Clickable links
+    %%  Clickable links
     click Estate "https://altinn.studio/repos/digdir/oed" "Gå til Gitea - Digitalt Dødsbo" _blank
     click Declaration "https://altinn.studio/repos/digdir/oed-declaration" "Gå til Gitea - Skifteerklæring" _blank
     click DDAuthz "https://github.com/Altinn/oed-authz" "Gå til Github - A3Authz" _blank
@@ -80,14 +96,19 @@ flowchart TB
 
     %% 🎨 Styles
     classDef altinn3 fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
-    classDef dd fill:#1e3a8a,stroke:#9ca3af,stroke-width:2px,color:#fff;
-    classDef da fill:#7f1d1d,stroke:#f87171,stroke-width:2px,color:#fff;
+    classDef dd fill:#025fa6,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef da fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
     classDef arkiv fill:#065f46,stroke:#34d399,stroke-width:2px,color:#fff;
-    classDef user fill:#fff
+    classDef user fill:#fff;
+    classDef dan fill:#4b5563,stroke:#60a5fa,stroke-width:2px,color:#fff;
+    classDef sg fill:#;
+
+    class Altinn2,Altinn3 sg
 
     class Altinn,Inbox,A3Events,A3Authz,AltinnMsg,A2Correspondance altinn3
     class Estate,TaskQ,Declaration,DDEvents,Feedpoller,DDAuthz,AdminApp,MetaDb,TestApp,E2E,DDInfra,Msging dd
     class DA_Node,DAFeed da
     class ArchiveSystem arkiv
     class User user
+    class BankKf,BankKd,BankKt,SVV,Kartverket,NorskPensjon,MarriagePact,Frreg dan
 ```
