@@ -71,8 +71,8 @@ flowchart TB
         Inbox[Innboks]
         AltinnMsg[Altinn Melding]
         Estate[🔗 Oppgjør etter dødsfall]
-        Declaration[🔗 Skifteerklæring]
         DDEvents[🔗 oed-events]
+        Declaration[🔗 Skifteerklæring]
         click A3Authz "https://github.com/Altinn/altinn-authorization" "Gå til Github - Altinn autorisasjon" _blank
         click A3Events "https://github.com/Altinn/altinn-events" "Gå til Github - Altinn Events" _blank
         click Estate "https://altinn.studio/repos/digdir/oed" "Gå til Gitea - Digitalt Dødsbo" _blank
@@ -92,13 +92,13 @@ flowchart TB
     Estate --> TaskQ
     Estate -- Autoriserer bruker --> A3Authz
     A3Authz & Estate -- Henter roller --> DDAuthz
-    Estate --> Declaration -- Publiser sent-event --> A3Events
+    DDEvents -- Publiser CloudEvents --> A3Events
+    Estate --> Declaration -- Publiser app-event --> A3Events
     DA_Node -- Henter skifteerklæring --> Estate
     A3Events --> DA_Node
 
     Feedpoller -- Poll hvert 5. minutt --> DDEvents
     DDEvents -- Henter hendelsesliste --> DAFeed
-    DDEvents -- Publiser CloudEvents --> A3Events
     A3Events <--> Estate --> MetaDb
     TaskQ -- Send korrespondanse --> A2Correspondance --> User
     Estate --> DAN
