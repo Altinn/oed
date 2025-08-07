@@ -1,7 +1,7 @@
 # oed
 Oppgjør etter dødsfall
 
-Lysegul betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
+Lyseblå betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
 
 ```mermaid
 flowchart TB
