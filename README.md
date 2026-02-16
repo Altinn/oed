@@ -23,6 +23,7 @@ flowchart TB
         NorskPensjon["🔗 Norsk pensjon - 'NorskPensjon'"]
         MarriagePact["🔗 Løsøreregisteret - 'Ektepakt'"]
         Frreg["🔗 Folkeregisteret - 'FregPerson'"]
+        Brreg["🔗 Enhetsregisteret - 'Virksomhetsinformasjon'"]
         click BankKf "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L61" "Gå til Github - Kundeforhold" _blank
         click BankKd "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L79" "Gå til Github - Kontodetaljer" _blank
         click BankKt "https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L70" "Gå til Github - Kontotransaksjoner" _blank
@@ -31,6 +32,7 @@ flowchart TB
         click MarriagePact "https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/Ektepakt.cs#L66" "Gå til Github - Ektepakt" _blank
         click NorskPensjon "https://github.com/data-altinn-no/plugin-pensjon" "Gå til Github - Norskpensjon" _blank
         click Frreg "https://github.com/data-altinn-no/plugin-skatteetaten/blob/main/src/Dan.Plugin.Skatteetaten/Freg.cs#L97" "Gå til Github - Folkeregisteret" _blank
+        click Brreg "https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/UnitBasicInformation.cs#L83" "Gå til Github - Enhetsregisteret" _blank
 
         BankKf ~~~ BankKd
         BankKt ~~~ SVV
@@ -122,5 +124,5 @@ flowchart TB
     class DA_Node,DAFeed da
     class ArchiveSystem arkiv
     class User user
-    class BankKf,BankKd,BankKt,SVV,Kartverket,NorskPensjon,MarriagePact,Frreg dan
+    class BankKf,BankKd,BankKt,SVV,Kartverket,NorskPensjon,MarriagePact,Frreg,Brreg dan
 ```
