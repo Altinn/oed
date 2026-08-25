@@ -23,15 +23,46 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Export to SVG
-        uses: rlespinasse/drawio-export-action@v2 
+      # The diagram is authored with light-dark() colours, but this drawio
+      # build bakes a fixed color-scheme into the SVG. Export both themes and
+      # let the README pick via prefers-color-scheme.
+      - name: Export light SVG
+        uses: rlespinasse/drawio-export-action@v2
         with:
           format: svg
           output: .
           action-mode: all
           remove-page-suffix: true
           embed-svg-fonts: false
-          svg-theme: ''
+          svg-theme: light
+
+      - name: Suffix light SVGs
+        shell: bash
+        run: |
+          shopt -s nullglob
+          for f in *.svg; do
+            case "$f" in *-light.svg|*-dark.svg) continue;; esac
+            mv -- "$f" "${f%.svg}-light.svg"
+          done
+
+      - name: Export dark SVG
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          format: svg
+          output: .
+          action-mode: all
+          remove-page-suffix: true
+          embed-svg-fonts: false
+          svg-theme: dark
+
+      - name: Suffix dark SVGs
+        shell: bash
+        run: |
+          shopt -s nullglob
+          for f in *.svg; do
+            case "$f" in *-light.svg|*-dark.svg) continue;; esac
+            mv -- "$f" "${f%.svg}-dark.svg"
+          done
 
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v6
