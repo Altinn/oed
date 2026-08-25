@@ -61,42 +61,42 @@
         </UserObject>
         <UserObject label="Altinn 3" id="mRQTRkCE-5xtZGmJmvK6-37">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;" vertex="1">
-            <mxGeometry as="geometry" x="910" y="179" width="490" height="450" />
+            <mxGeometry as="geometry" x="910" y="179" width="490" height="540" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Altinn Autorisasjon" link="https://github.com/Altinn/altinn-authorization" linkTarget="_blank" tooltip="Gå til Github - Altinn autorisasjon" id="mRQTRkCE-5xtZGmJmvK6-38">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="30" y="50" width="200" height="70" />
+            <mxGeometry as="geometry" x="30" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Altinn 3 Event systemet" link="https://github.com/Altinn/altinn-events" linkTarget="_blank" tooltip="Gå til Github - Altinn Events" id="mRQTRkCE-5xtZGmJmvK6-39">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="260" y="250" width="200" height="70" />
+            <mxGeometry as="geometry" x="260" y="440" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="Innboks" id="mRQTRkCE-5xtZGmJmvK6-40">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="30" y="150" width="200" height="70" />
+            <mxGeometry as="geometry" x="260" y="50" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn Melding" id="mRQTRkCE-5xtZGmJmvK6-41">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="30" y="250" width="200" height="70" />
+            <mxGeometry as="geometry" x="260" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Oppgjør etter dødsfall" link="https://altinn.studio/repos/digdir/oed" linkTarget="_blank" tooltip="Gå til Gitea - Digitalt Dødsbo" id="mRQTRkCE-5xtZGmJmvK6-42">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="30" y="350" width="200" height="70" />
+            <mxGeometry as="geometry" x="30" y="310" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 oed-events" link="https://altinn.studio/repos/digdir/oed-events" linkTarget="_blank" tooltip="Gå til Gitea - Events" id="mRQTRkCE-5xtZGmJmvK6-43">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="260" y="350" width="200" height="70" />
+            <mxGeometry as="geometry" x="30" y="440" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Skifteerklæring" link="https://altinn.studio/repos/digdir/oed-declaration" linkTarget="_blank" tooltip="Gå til Gitea - Skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-44">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="260" y="150" width="200" height="70" />
+            <mxGeometry as="geometry" x="260" y="310" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="" id="mRQTRkCE-5xtZGmJmvK6-45">
@@ -141,12 +141,12 @@
         </UserObject>
         <UserObject label="Altinn Korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-5">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="260" y="50" width="200" height="70" />
+            <mxGeometry as="geometry" x="30" y="50" width="200" height="70" />
           </mxCell>
         </UserObject>
         <UserObject label="Domstoladministrasjonen" id="mRQTRkCE-5xtZGmJmvK6-53">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;" vertex="1">
-            <mxGeometry as="geometry" x="980" y="729" width="350" height="250" />
+            <mxGeometry as="geometry" x="980" y="819" width="350" height="250" />
           </mxCell>
         </UserObject>
         <UserObject label="Hendelseslista" id="mRQTRkCE-5xtZGmJmvK6-54">
