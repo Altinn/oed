@@ -29,6 +29,7 @@ jobs:
       - name: Export light SVG
         uses: rlespinasse/drawio-export-action@v2
         with:
+          path: docs
           format: svg
           output: .
           action-mode: all
@@ -39,15 +40,15 @@ jobs:
       - name: Suffix light SVGs
         shell: bash
         run: |
-          shopt -s nullglob
-          for f in *.svg; do
+          while IFS= read -r -d '' f; do
             case "$f" in *-light.svg|*-dark.svg) continue;; esac
             mv -- "$f" "${f%.svg}-light.svg"
-          done
+          done < <(find docs -name '*.svg' -print0)
 
       - name: Export dark SVG
         uses: rlespinasse/drawio-export-action@v2
         with:
+          path: docs
           format: svg
           output: .
           action-mode: all
@@ -58,11 +59,24 @@ jobs:
       - name: Suffix dark SVGs
         shell: bash
         run: |
-          shopt -s nullglob
-          for f in *.svg; do
+          while IFS= read -r -d '' f; do
             case "$f" in *-light.svg|*-dark.svg) continue;; esac
             mv -- "$f" "${f%.svg}-dark.svg"
-          done
+          done < <(find docs -name '*.svg' -print0)
+
+      - name: Verify both themes were exported
+        shell: bash
+        run: |
+          shopt -s nullglob
+          light=(docs/*-light.svg)
+          dark=(docs/*-dark.svg)
+          echo "light: ${light[*]:-none}"
+          echo "dark: ${dark[*]:-none}"
+          if [ "${#light[@]}" -eq 0 ] || [ "${#light[@]}" -ne "${#dark[@]}" ]; then
+            echo "::error ::expected matching light/dark SVGs under docs/"
+            find . -name '*.svg' -not -path './.git/*'
+            exit 1
+          fi
 
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v6
