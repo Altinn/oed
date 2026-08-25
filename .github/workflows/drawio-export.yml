@@ -33,8 +33,13 @@ jobs:
           embed-svg-fonts: false
           svg-theme: dark
 
+      - name: List exported files
+        run: |
+          find . -name '*.svg' -not -path './.git/*'
+          git status --porcelain
+
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          file_pattern: '**/*.svg'
+          file_pattern: '*.svg'
           commit_message: 'chore(docs): regenerate diagram SVGs'
