@@ -1,57 +1,57 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jPhfbrwJ7afIqJezLMGa">
-    <mxGraphModel dx="1720" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="2169" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="2169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="Digitalt Dødsbo" id="mRQTRkCE-5xtZGmJmvK6-20">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;" vertex="1">
-            <mxGeometry as="geometry" x="90" y="179" width="635" height="920" />
+            <mxGeometry height="920" width="635" x="90" y="179" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="E2E tester" id="mRQTRkCE-5xtZGmJmvK6-22">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="235" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="TaskQueue" id="mRQTRkCE-5xtZGmJmvK6-27">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="595" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Testdata" id="mRQTRkCE-5xtZGmJmvK6-21">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="415" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="415" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Admin" id="mRQTRkCE-5xtZGmJmvK6-29">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="235" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Metadata database" id="mRQTRkCE-5xtZGmJmvK6-25">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="415" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="415" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="55" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="55" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Feedpoller og proxy" id="mRQTRkCE-5xtZGmJmvK6-28">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="775" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="775" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Infrastructure" id="mRQTRkCE-5xtZGmJmvK6-23">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="55" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="55" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Korrespondanse bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="595" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" id="mRQTRkCE-5xtZGmJmvK6-36">
@@ -61,42 +61,52 @@
         </UserObject>
         <UserObject label="Altinn 3" id="mRQTRkCE-5xtZGmJmvK6-37">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;" vertex="1">
-            <mxGeometry as="geometry" x="945" y="179" width="635" height="920" />
+            <mxGeometry height="920" width="635" x="945" y="179" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn Autorisasjon" id="mRQTRkCE-5xtZGmJmvK6-38">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="235" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn Events" id="mRQTRkCE-5xtZGmJmvK6-39">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="595" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Innboks" id="mRQTRkCE-5xtZGmJmvK6-40">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="55" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="55" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn Melding" id="mRQTRkCE-5xtZGmJmvK6-41">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="235" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Digitalt Dødsbo (OED)" id="mRQTRkCE-5xtZGmJmvK6-42">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="415" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="415" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="OED Events" id="mRQTRkCE-5xtZGmJmvK6-43">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="595" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="45" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Skifteerklæring (legacy)" id="mRQTRkCE-5xtZGmJmvK6-44">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="340" y="415" width="250" height="100" />
+            <mxGeometry height="100" width="250" x="340" y="415" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Altinn Korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-5">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
+            <mxGeometry height="100" width="250" x="45" y="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Privat skifte" id="privat-skifte-1">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
+            <mxGeometry height="100" width="250" x="340" y="775" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" id="mRQTRkCE-5xtZGmJmvK6-45">
@@ -117,14 +127,14 @@
         <UserObject label="Autoriserer bruker" id="mRQTRkCE-5xtZGmJmvK6-48">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-38">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="Publiser CloudEvents" id="mRQTRkCE-5xtZGmJmvK6-49">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-43" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="-62" />
+              <mxPoint y="-62" as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -136,7 +146,7 @@
         <UserObject label="Publiser app-event" id="mRQTRkCE-5xtZGmJmvK6-51">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-44" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -145,37 +155,22 @@
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Altinn Korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-5">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="55" width="250" height="100" />
-          </mxCell>
-        </UserObject>
         <UserObject label="Domstoladministrasjonen" id="mRQTRkCE-5xtZGmJmvK6-53">
-          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;" vertex="1">
-            <mxGeometry as="geometry" x="1067" y="1209" width="390" height="380" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Hendelseslista" id="mRQTRkCE-5xtZGmJmvK6-54">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="235" width="300" height="100" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="DA fagsystem" id="mRQTRkCE-5xtZGmJmvK6-55">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="55" width="300" height="100" />
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=0;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1">
+            <mxGeometry height="211" width="635" x="945" y="1209" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Logger inn" id="mRQTRkCE-5xtZGmJmvK6-58">
           <mxCell edge="1" parent="1" source="b7xdcVu81Tnr1B8ahJKg-2" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-38">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="81" />
+              <mxPoint y="81" as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="Henter roller" id="mRQTRkCE-5xtZGmJmvK6-60">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-38" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-26">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -187,7 +182,7 @@
         <UserObject label="Henter skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-62">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-55" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-42">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="-5" y="-23" />
+              <mxPoint x="-5" y="-23" as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -199,14 +194,14 @@
         <UserObject label="Poll hvert 5. minutt" id="mRQTRkCE-5xtZGmJmvK6-64">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-28" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-43">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="Henter hendelsesliste" id="mRQTRkCE-5xtZGmJmvK6-65">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-43" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-54">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -217,68 +212,66 @@
         </UserObject>
         <UserObject label="" id="mRQTRkCE-5xtZGmJmvK6-68">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-5" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);fontSize=17;fontFamily=Helvetica;curved=0;rounded=0;" target="b7xdcVu81Tnr1B8ahJKg-2">
-            <mxGeometry relative="1" as="geometry">
-              </mxGeometry>
+            <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="DAN (data.altinn.no)" id="mRQTRkCE-5xtZGmJmvK6-6">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;" vertex="1">
-            <mxGeometry as="geometry" x="40" y="1209" width="735" height="920" />
+            <mxGeometry height="920" width="735" x="40" y="1209" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Bits - Kundeforhold" id="mRQTRkCE-5xtZGmJmvK6-7">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="55" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="45" y="55" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Bits - Kontotransaksjoner" id="mRQTRkCE-5xtZGmJmvK6-9">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="595" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="45" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Kartverket - Grunnbok" id="mRQTRkCE-5xtZGmJmvK6-11">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="390" y="55" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="390" y="55" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Løsøreregisteret - Ektepakt" id="mRQTRkCE-5xtZGmJmvK6-13">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="390" y="415" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="390" y="415" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="SVV - Kjøretoy" id="mRQTRkCE-5xtZGmJmvK6-10">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="235" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="45" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Bits - Kontodetaljer" id="mRQTRkCE-5xtZGmJmvK6-8">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="775" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="45" y="775" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Norsk pensjon - NorskPensjon" id="mRQTRkCE-5xtZGmJmvK6-12">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="390" y="235" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="390" y="235" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Folkeregisteret - FregPerson" id="mRQTRkCE-5xtZGmJmvK6-14">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="390" y="595" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="390" y="595" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Enhetsregisteret - Virksomhetsinformasjon" id="mRQTRkCE-5xtZGmJmvK6-15">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
-            <mxGeometry as="geometry" x="45" y="415" width="300" height="100" />
+            <mxGeometry height="100" width="300" x="45" y="415" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="XrT4xMYESNk_eO4uSYzE-4" edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);fontSize=17;fontFamily=Helvetica;curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-6" value="">
-          <mxGeometry relative="1" as="geometry">
-            </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Send korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-67">
           <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-27" style="edgeStyle=none;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=17;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);curved=0;rounded=0;" target="mRQTRkCE-5xtZGmJmvK6-5">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint as="offset" x="0" y="0" />
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -288,11 +281,16 @@
           </mxCell>
         </UserObject>
         <mxCell id="b7xdcVu81Tnr1B8ahJKg-2" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#2072B8;aspect=fixed;fontSize=20;fontFamily=Helvetica;" value="Bruker" vertex="1">
-          <mxGeometry as="geometry" x="1079" y="40" width="73" height="79" />
+          <mxGeometry height="90" width="83.16" x="1226" y="10" as="geometry" />
         </mxCell>
-        <UserObject label="Privat skifte" id="privat-skifte-1">
-          <mxCell style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1" parent="mRQTRkCE-5xtZGmJmvK6-37">
-            <mxGeometry as="geometry" x="340" y="775" width="250" height="100" />
+        <UserObject label="Hendelsesliste" id="mRQTRkCE-5xtZGmJmvK6-54">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
+            <mxGeometry height="100" width="221.73" x="990" y="1270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DA fagsystem" id="mRQTRkCE-5xtZGmJmvK6-55">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
+            <mxGeometry height="100" width="244.23" x="1287.8899999999999" y="1270" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
