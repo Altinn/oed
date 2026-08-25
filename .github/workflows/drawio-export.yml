@@ -1,0 +1,40 @@
+name: Export draw.io diagrams
+
+on:
+  push:
+    paths:
+      - '**.drawio'
+      - '**.dio'
+      - '.github/workflows/drawio-export.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: drawio-export-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Export to SVG
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          path: docs/diagrams
+          format: svg
+          output: .
+          remove-page-suffix: true
+          embed-svg-fonts: false
+          svg-theme: light
+
+      - name: Commit generated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          file_pattern: 'docs/diagrams/**/*.svg'
+          commit_message: 'chore(docs): regenerate diagram SVGs'
