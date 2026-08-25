@@ -49,8 +49,8 @@
             <mxGeometry as="geometry" x="30" y="50" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Korrespondanse&#10;bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+        <UserObject label="Korrespondanse bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="350" width="200" height="70" />
           </mxCell>
         </UserObject>
@@ -94,8 +94,8 @@
             <mxGeometry as="geometry" x="30" y="440" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Skifteerklæring&#10;(legacy)" id="mRQTRkCE-5xtZGmJmvK6-44">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+        <UserObject label="Skifteerklæring (legacy)" id="mRQTRkCE-5xtZGmJmvK6-44">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="310" width="200" height="70" />
           </mxCell>
         </UserObject>
@@ -266,8 +266,8 @@
             <mxGeometry as="geometry" x="350" y="350" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Enhetsregisteret -&#10;Virksomhetsinformasjon" id="mRQTRkCE-5xtZGmJmvK6-15">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+        <UserObject label="Enhetsregisteret - Virksomhetsinformasjon" id="mRQTRkCE-5xtZGmJmvK6-15">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="250" width="290" height="70" />
           </mxCell>
         </UserObject>
