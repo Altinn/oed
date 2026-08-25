@@ -9,7 +9,7 @@
             <mxGeometry as="geometry" x="130" y="179" width="490" height="550" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 E2E test" link="https://github.com/altinn/dd-e2e-test/" linkTarget="_blank" tooltip="Gå til Github - E2E" id="mRQTRkCE-5xtZGmJmvK6-22">
+        <UserObject label="E2E test" id="mRQTRkCE-5xtZGmJmvK6-22">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="150" width="200" height="70" />
           </mxCell>
@@ -19,12 +19,12 @@
             <mxGeometry as="geometry" x="260" y="350" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Testdata" link="https://github.com/Altinn/oed-testdata-app" linkTarget="_blank" tooltip="Gå til Github - Testdata" id="mRQTRkCE-5xtZGmJmvK6-21">
+        <UserObject label="Testdata" id="mRQTRkCE-5xtZGmJmvK6-21">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="250" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Admin" link="https://github.com/Altinn/oed-admin" linkTarget="_blank" tooltip="Gå til Github - Admin" id="mRQTRkCE-5xtZGmJmvK6-29">
+        <UserObject label="Admin" id="mRQTRkCE-5xtZGmJmvK6-29">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="150" width="200" height="70" />
           </mxCell>
@@ -34,22 +34,22 @@
             <mxGeometry as="geometry" x="260" y="250" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 DD Authz" link="https://github.com/Altinn/oed-authz" linkTarget="_blank" tooltip="Gå til Github - A3Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
+        <UserObject label="DD Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="50" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Feedpoller og proxy" link="https://github.com/Altinn/oed-feedpoller" linkTarget="_blank" tooltip="Gå til Github - Feedpoller" id="mRQTRkCE-5xtZGmJmvK6-28">
+        <UserObject label="Feedpoller og proxy" id="mRQTRkCE-5xtZGmJmvK6-28">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="450" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 DD Infra" link="https://github.com/Altinn/dd-infrastructure/" linkTarget="_blank" tooltip="Gå til Github - Infrastruktur" id="mRQTRkCE-5xtZGmJmvK6-23">
+        <UserObject label="DD Infra" id="mRQTRkCE-5xtZGmJmvK6-23">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="50" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Korrespondanse bibliotek" link="https://github.com/Altinn/oed-messaging" linkTarget="_blank" tooltip="Gå til Github - Korrespondanse bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
+        <UserObject label="Korrespondanse bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="350" width="200" height="70" />
           </mxCell>
@@ -64,12 +64,12 @@
             <mxGeometry as="geometry" x="910" y="179" width="490" height="540" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Altinn Autorisasjon" link="https://github.com/Altinn/altinn-authorization" linkTarget="_blank" tooltip="Gå til Github - Altinn autorisasjon" id="mRQTRkCE-5xtZGmJmvK6-38">
+        <UserObject label="Altinn Autorisasjon" id="mRQTRkCE-5xtZGmJmvK6-38">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Altinn 3 Event systemet" link="https://github.com/Altinn/altinn-events" linkTarget="_blank" tooltip="Gå til Github - Altinn Events" id="mRQTRkCE-5xtZGmJmvK6-39">
+        <UserObject label="Altinn 3 Event systemet" id="mRQTRkCE-5xtZGmJmvK6-39">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="440" width="200" height="70" />
           </mxCell>
@@ -84,17 +84,17 @@
             <mxGeometry as="geometry" x="260" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Oppgjør etter dødsfall" link="https://altinn.studio/repos/digdir/oed" linkTarget="_blank" tooltip="Gå til Gitea - Digitalt Dødsbo" id="mRQTRkCE-5xtZGmJmvK6-42">
+        <UserObject label="Oppgjør etter dødsfall" id="mRQTRkCE-5xtZGmJmvK6-42">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="310" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 oed-events" link="https://altinn.studio/repos/digdir/oed-events" linkTarget="_blank" tooltip="Gå til Gitea - Events" id="mRQTRkCE-5xtZGmJmvK6-43">
+        <UserObject label="oed-events" id="mRQTRkCE-5xtZGmJmvK6-43">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="440" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Skifteerklæring" link="https://altinn.studio/repos/digdir/oed-declaration" linkTarget="_blank" tooltip="Gå til Gitea - Skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-44">
+        <UserObject label="Skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-44">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="310" width="200" height="70" />
           </mxCell>
@@ -226,47 +226,47 @@
             <mxGeometry as="geometry" x="40" y="829" width="670" height="550" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Bits - 'Kundeforhold'" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L61" linkTarget="_blank" tooltip="Gå til Github - Kundeforhold" id="mRQTRkCE-5xtZGmJmvK6-7">
+        <UserObject label="Bits - 'Kundeforhold'" id="mRQTRkCE-5xtZGmJmvK6-7">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="50" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Bits - 'Kontotransaksjoner'" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L70" linkTarget="_blank" tooltip="Gå til Github - Kontotransaksjoner" id="mRQTRkCE-5xtZGmJmvK6-9">
+        <UserObject label="Bits - 'Kontotransaksjoner'" id="mRQTRkCE-5xtZGmJmvK6-9">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="350" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Kartverket - 'Grunnbok'" link="https://github.com/data-altinn-no/plugin-kartverket" linkTarget="_blank" tooltip="Gå til Github - Kartverket" id="mRQTRkCE-5xtZGmJmvK6-11">
+        <UserObject label="Kartverket - 'Grunnbok'" id="mRQTRkCE-5xtZGmJmvK6-11">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="50" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Løsøreregisteret - 'Ektepakt'" link="https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/Ektepakt.cs#L66" linkTarget="_blank" tooltip="Gå til Github - Ektepakt" id="mRQTRkCE-5xtZGmJmvK6-13">
+        <UserObject label="Løsøreregisteret - 'Ektepakt'" id="mRQTRkCE-5xtZGmJmvK6-13">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="250" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 SVV - 'Kjoretoy'" link="https://github.com/data-altinn-no/plugin-statensvegvesen" linkTarget="_blank" tooltip="Gå til Github - SVV" id="mRQTRkCE-5xtZGmJmvK6-10">
+        <UserObject label="SVV - 'Kjoretoy'" id="mRQTRkCE-5xtZGmJmvK6-10">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="150" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Bits - 'Kontodetaljer'" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L79" linkTarget="_blank" tooltip="Gå til Github - Kontodetaljer" id="mRQTRkCE-5xtZGmJmvK6-8">
+        <UserObject label="Bits - 'Kontodetaljer'" id="mRQTRkCE-5xtZGmJmvK6-8">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="450" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Norsk pensjon - 'NorskPensjon'" link="https://github.com/data-altinn-no/plugin-pensjon" linkTarget="_blank" tooltip="Gå til Github - Norskpensjon" id="mRQTRkCE-5xtZGmJmvK6-12">
+        <UserObject label="Norsk pensjon - 'NorskPensjon'" id="mRQTRkCE-5xtZGmJmvK6-12">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="150" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Folkeregisteret - 'FregPerson'" link="https://github.com/data-altinn-no/plugin-skatteetaten/blob/main/src/Dan.Plugin.Skatteetaten/Freg.cs#L97" linkTarget="_blank" tooltip="Gå til Github - Folkeregisteret" id="mRQTRkCE-5xtZGmJmvK6-14">
+        <UserObject label="Folkeregisteret - 'FregPerson'" id="mRQTRkCE-5xtZGmJmvK6-14">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="350" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="🔗 Enhetsregisteret - 'Virksomhetsinformasjon'" link="https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/UnitBasicInformation.cs#L83" linkTarget="_blank" tooltip="Gå til Github - Enhetsregisteret" id="mRQTRkCE-5xtZGmJmvK6-15">
+        <UserObject label="Enhetsregisteret - 'Virksomhetsinformasjon'" id="mRQTRkCE-5xtZGmJmvK6-15">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="250" width="290" height="70" />
           </mxCell>

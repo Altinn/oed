@@ -8,3 +8,34 @@ Lyseblå betyr at Digitalt Dødsbo-teamet er ansvarlig for tjenesten.
   <img alt="Arkitekturdiagram – Digitalt Dødsbo" src="docs/oed-light.svg">
 </picture>
 
+## Komponenter
+
+### Digitalt Dødsbo
+
+- [DD Infra](https://github.com/Altinn/dd-infrastructure/)
+- [E2E test](https://github.com/altinn/dd-e2e-test/)
+- [Testdata](https://github.com/Altinn/oed-testdata-app)
+- [Korrespondanse bibliotek](https://github.com/Altinn/oed-messaging)
+- [DD Authz](https://github.com/Altinn/oed-authz)
+- [Admin](https://github.com/Altinn/oed-admin)
+- [Feedpoller og proxy](https://github.com/Altinn/oed-feedpoller)
+
+### Altinn 3
+
+- [Altinn Autorisasjon](https://github.com/Altinn/altinn-authorization)
+- [Oppgjør etter dødsfall](https://altinn.studio/repos/digdir/oed)
+- [oed-events](https://altinn.studio/repos/digdir/oed-events)
+- [Skifteerklæring](https://altinn.studio/repos/digdir/oed-declaration)
+- [Altinn 3 Event systemet](https://github.com/Altinn/altinn-events)
+
+### DAN (data.altinn.no)
+
+- [Bits - 'Kundeforhold'](https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L61)
+- [SVV - 'Kjoretoy'](https://github.com/data-altinn-no/plugin-statensvegvesen)
+- [Enhetsregisteret - 'Virksomhetsinformasjon'](https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/UnitBasicInformation.cs#L83)
+- [Bits - 'Kontotransaksjoner'](https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L70)
+- [Bits - 'Kontodetaljer'](https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L79)
+- [Kartverket - 'Grunnbok'](https://github.com/data-altinn-no/plugin-kartverket)
+- [Norsk pensjon - 'NorskPensjon'](https://github.com/data-altinn-no/plugin-pensjon)
+- [Løsøreregisteret - 'Ektepakt'](https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/Ektepakt.cs#L66)
+- [Folkeregisteret - 'FregPerson'](https://github.com/data-altinn-no/plugin-skatteetaten/blob/main/src/Dan.Plugin.Skatteetaten/Freg.cs#L97)
