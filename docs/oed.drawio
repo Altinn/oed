@@ -9,7 +9,7 @@
             <mxGeometry as="geometry" x="130" y="179" width="490" height="550" />
           </mxCell>
         </UserObject>
-        <UserObject label="E2E test" id="mRQTRkCE-5xtZGmJmvK6-22">
+        <UserObject label="E2E tester" id="mRQTRkCE-5xtZGmJmvK6-22">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="150" width="200" height="70" />
           </mxCell>
@@ -34,7 +34,7 @@
             <mxGeometry as="geometry" x="260" y="250" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="DD Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
+        <UserObject label="Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="50" width="200" height="70" />
           </mxCell>
@@ -44,7 +44,7 @@
             <mxGeometry as="geometry" x="260" y="450" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="DD Infra" id="mRQTRkCE-5xtZGmJmvK6-23">
+        <UserObject label="Infrastructure" id="mRQTRkCE-5xtZGmJmvK6-23">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-20" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="50" width="200" height="70" />
           </mxCell>
@@ -69,7 +69,7 @@
             <mxGeometry as="geometry" x="30" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Altinn 3 Event systemet" id="mRQTRkCE-5xtZGmJmvK6-39">
+        <UserObject label="Altinn Events" id="mRQTRkCE-5xtZGmJmvK6-39">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="440" width="200" height="70" />
           </mxCell>
@@ -84,17 +84,17 @@
             <mxGeometry as="geometry" x="260" y="180" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Oppgjør etter dødsfall" id="mRQTRkCE-5xtZGmJmvK6-42">
+        <UserObject label="Digitalt Dødsbo (OED)" id="mRQTRkCE-5xtZGmJmvK6-42">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="310" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="oed-events" id="mRQTRkCE-5xtZGmJmvK6-43">
+        <UserObject label="OED Events" id="mRQTRkCE-5xtZGmJmvK6-43">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="440" width="200" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-44">
+        <UserObject label="Skifteerklæring (legacy)" id="mRQTRkCE-5xtZGmJmvK6-44">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="260" y="310" width="200" height="70" />
           </mxCell>
@@ -226,47 +226,47 @@
             <mxGeometry as="geometry" x="40" y="829" width="670" height="550" />
           </mxCell>
         </UserObject>
-        <UserObject label="Bits - 'Kundeforhold'" id="mRQTRkCE-5xtZGmJmvK6-7">
+        <UserObject label="Bits - Kundeforhold" id="mRQTRkCE-5xtZGmJmvK6-7">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="50" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Bits - 'Kontotransaksjoner'" id="mRQTRkCE-5xtZGmJmvK6-9">
+        <UserObject label="Bits - Kontotransaksjoner" id="mRQTRkCE-5xtZGmJmvK6-9">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="350" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Kartverket - 'Grunnbok'" id="mRQTRkCE-5xtZGmJmvK6-11">
+        <UserObject label="Kartverket - Grunnbok" id="mRQTRkCE-5xtZGmJmvK6-11">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="50" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Løsøreregisteret - 'Ektepakt'" id="mRQTRkCE-5xtZGmJmvK6-13">
+        <UserObject label="Løsøreregisteret - Ektepakt" id="mRQTRkCE-5xtZGmJmvK6-13">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="250" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="SVV - 'Kjoretoy'" id="mRQTRkCE-5xtZGmJmvK6-10">
+        <UserObject label="SVV - Kjøretoy" id="mRQTRkCE-5xtZGmJmvK6-10">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="150" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Bits - 'Kontodetaljer'" id="mRQTRkCE-5xtZGmJmvK6-8">
+        <UserObject label="Bits - Kontodetaljer" id="mRQTRkCE-5xtZGmJmvK6-8">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="450" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Norsk pensjon - 'NorskPensjon'" id="mRQTRkCE-5xtZGmJmvK6-12">
+        <UserObject label="Norsk pensjon - NorskPensjon" id="mRQTRkCE-5xtZGmJmvK6-12">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="150" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Folkeregisteret - 'FregPerson'" id="mRQTRkCE-5xtZGmJmvK6-14">
+        <UserObject label="Folkeregisteret - FregPerson" id="mRQTRkCE-5xtZGmJmvK6-14">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="350" y="350" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Enhetsregisteret - 'Virksomhetsinformasjon'" id="mRQTRkCE-5xtZGmJmvK6-15">
+        <UserObject label="Enhetsregisteret - Virksomhetsinformasjon" id="mRQTRkCE-5xtZGmJmvK6-15">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-6" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="250" width="290" height="70" />
           </mxCell>
