@@ -31,7 +31,7 @@ jobs:
           action-mode: all
           remove-page-suffix: true
           embed-svg-fonts: false
-          svg-theme: dark
+          svg-theme: ''
 
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v6
