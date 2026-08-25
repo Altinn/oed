@@ -26,7 +26,7 @@ jobs:
       - name: Export to SVG
         uses: rlespinasse/drawio-export-action@v2
         with:
-          path: docs/diagrams
+          path: .
           format: svg
           output: .
           remove-page-suffix: true
