@@ -1,8 +1,6 @@
-# oed
-Oppgjør etter dødsfall
+# Digitalt Dødsbo
 
-Lyseblå betyr at Digitalt Dødsbo teamet er ansvarlig for tjenesten.
+Lyseblå betyr at Digitalt Dødsbo-teamet er ansvarlig for tjenesten.
 
-![Arkitekturdiagram – Oppgjør etter dødsfall](oed.svg)
+![Arkitekturdiagram – Digitalt Dødsbo](oed.svg)
 
-<sub>Diagrammet genereres automatisk fra [oed.drawio](oed.drawio) av [drawio-export workflowen](.github/workflows/drawio-export.yml) – rediger kilden, ikke SVG-en.</sub>
