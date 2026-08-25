@@ -28,6 +28,7 @@ jobs:
         with:
           format: svg
           output: .
+          action-mode: all
           remove-page-suffix: true
           embed-svg-fonts: false
           svg-theme: dark
