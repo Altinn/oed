@@ -1,60 +1,60 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jPhfbrwJ7afIqJezLMGa">
-    <mxGraphModel dx="3206" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7450" dy="3400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XrT4xMYESNk_eO4uSYzE-8" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="700" width="770" x="1020" y="850" as="geometry" />
+        <mxCell id="XrT4xMYESNk_eO4uSYzE-8" connectable="0" parent="1" style="group;fontSize=20;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="730" width="770" x="1780" y="400" as="geometry" />
         </mxCell>
         <UserObject label="Digitalt Dødsbo" mermaidId="n:DD" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Digitalt Dødsbo" id="mRQTRkCE-5xtZGmJmvK6-20">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1">
-            <mxGeometry height="700" width="770" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1">
+            <mxGeometry height="730" width="610" x="160" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 E2E test" link="https://github.com/altinn/dd-e2e-test/" linkTarget="_blank" tooltip="Gå til Github - E2E" mermaidId="n:E2E" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 E2E test" id="mRQTRkCE-5xtZGmJmvK6-22">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="60" width="160" x="30" y="150" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="160" x="240" y="150" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="TaskQueue" mermaidId="n:TaskQ" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="TaskQueue" id="mRQTRkCE-5xtZGmJmvK6-27">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry height="75" width="130" x="505" y="460" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Testdata" link="https://github.com/Altinn/oed-testdata-app" linkTarget="_blank" tooltip="Gå til Github - Testdata" mermaidId="n:TestApp" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Testdata" id="mRQTRkCE-5xtZGmJmvK6-21">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="60" width="160" x="29" y="240" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="160" x="240" y="250" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Admin" link="https://github.com/Altinn/oed-admin" linkTarget="_blank" tooltip="Gå til Github - Admin" mermaidId="n:AdminApp" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Admin" id="mRQTRkCE-5xtZGmJmvK6-29">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry height="60" width="160" x="490" y="150" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Metadata database" mermaidId="n:MetaDb" mermaidBaseStyle="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Metadata database" id="mRQTRkCE-5xtZGmJmvK6-25">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry height="75" width="130" x="505" y="298" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 DD Authz" link="https://github.com/Altinn/oed-authz" linkTarget="_blank" tooltip="Gå til Github - A3Authz" mermaidId="n:DDAuthz" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 DD Authz" id="mRQTRkCE-5xtZGmJmvK6-26">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="60" width="160" x="240" y="60" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="160" x="490" y="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Feedpoller og proxy" link="https://github.com/Altinn/oed-feedpoller" linkTarget="_blank" tooltip="Gå til Github - Feedpoller" mermaidId="n:Feedpoller" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Feedpoller og proxy" id="mRQTRkCE-5xtZGmJmvK6-28">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry height="60" width="160" x="490" y="620" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 DD Infra" link="https://github.com/Altinn/dd-infrastructure/" linkTarget="_blank" tooltip="Gå til Github - Infrastruktur" mermaidId="n:DDInfra" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 DD Infra" id="mRQTRkCE-5xtZGmJmvK6-23">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="60" width="160" x="30" y="60" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="160" x="240" y="50" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Korrespondanse bibliotek" link="https://github.com/Altinn/oed-messaging" linkTarget="_blank" tooltip="Gå til Github - Korrespondanse bibliotek" mermaidId="n:Msging" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Korrespondanse bibliotek" id="mRQTRkCE-5xtZGmJmvK6-24">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="60" width="160" x="240" y="150" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-8" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="160" x="240" y="360" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:TestApp-&gt;E2E#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-30">
@@ -75,7 +75,7 @@
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:AdminApp-&gt;MetaDb#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.54;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-36">
-          <mxCell edge="1" parent="XrT4xMYESNk_eO4uSYzE-8" source="mRQTRkCE-5xtZGmJmvK6-29" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mRQTRkCE-5xtZGmJmvK6-25">
+          <mxCell edge="1" parent="XrT4xMYESNk_eO4uSYzE-8" source="mRQTRkCE-5xtZGmJmvK6-29" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-25">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
@@ -124,201 +124,200 @@
           </mxCell>
         </UserObject>
         <UserObject label="Altinn 3" mermaidId="n:Altinn3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Altinn 3" id="mRQTRkCE-5xtZGmJmvK6-37">
-          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="1244" width="884" x="2950" y="140" as="geometry" />
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="1244" width="870" x="2890" y="400" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Altinn Autorisasjon" link="https://github.com/Altinn/altinn-authorization" linkTarget="_blank" tooltip="Gå til Github - Altinn autorisasjon" mermaidId="n:A3Authz" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Altinn Autorisasjon" id="mRQTRkCE-5xtZGmJmvK6-38">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="221" x="267.11" y="20" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="217.5" x="82.15791855203621" y="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Altinn 3 Event systemet" link="https://github.com/Altinn/altinn-events" linkTarget="_blank" tooltip="Gå til Github - Altinn Events" mermaidId="n:A3Events" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Altinn 3 Event systemet" id="mRQTRkCE-5xtZGmJmvK6-39">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="256" x="304.48" y="626.92" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="251.94570135746605" x="299.6579185520362" y="626.92" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Innboks" mermaidId="n:Inbox" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Innboks" id="mRQTRkCE-5xtZGmJmvK6-40">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="114" x="115.27" y="227.35" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="112.1945701357466" x="82.15791855203618" y="227.35" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn Melding" mermaidId="n:AltinnMsg" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Altinn Melding" id="mRQTRkCE-5xtZGmJmvK6-41">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="162" x="566.55" y="215.06" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="159.4343891402715" x="63.97058823529406" y="328" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Oppgjør etter dødsfall" link="https://altinn.studio/repos/digdir/oed" linkTarget="_blank" tooltip="Gå til Gitea - Digitalt Dødsbo" mermaidId="n:Estate" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Oppgjør etter dødsfall" id="mRQTRkCE-5xtZGmJmvK6-42">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="247" x="467.72" y="419.97" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="243.08823529411762" x="56.56968325791857" y="490" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 oed-events" link="https://altinn.studio/repos/digdir/oed-events" linkTarget="_blank" tooltip="Gå til Gitea - Events" mermaidId="n:DDEvents" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 oed-events" id="mRQTRkCE-5xtZGmJmvK6-43">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="166" x="239.03" y="213.27" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="163.37104072398188" x="56.569683257918555" y="1120" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Skifteerklæring" link="https://altinn.studio/repos/digdir/oed-declaration" linkTarget="_blank" tooltip="Gå til Gitea - Skifteerklæring" mermaidId="n:Declaration" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-44">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="197" x="10" y="384.79" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=##b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="193.88009049773754" x="29.524886877828052" y="658" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A3Authz-&gt;Inbox#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.83;entryX=0.5;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-45">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-38" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=0.379;exitY=1;entryX=0.7346;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-40">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-38" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=0.379;exitY=1;entryX=0.7346;entryY=0;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-40">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:Inbox-&gt;AltinnMsg#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-46">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-40" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=1;exitY=0.4726;entryX=0;entryY=0.5387;" target="mRQTRkCE-5xtZGmJmvK6-41">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-40" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=1;exitY=0.4726;entryX=0;entryY=0.5387;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-41">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:AltinnMsg-&gt;Estate#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.96;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-47">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-41" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=0.4542;exitY=1;entryX=0.53;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-42">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-41" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=0.4542;exitY=1;entryX=0.53;entryY=0;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-42">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Autoriserer bruker" mermaidId="e:Estate-&gt;A3Authz#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.25;exitY=0;entryX=0.45;entryY=1;" mermaidBaseValue="Autoriserer bruker" id="mRQTRkCE-5xtZGmJmvK6-48">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.4416;exitY=0;entryX=0.5652;entryY=1;" target="mRQTRkCE-5xtZGmJmvK6-38">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.4416;exitY=0;entryX=0.5652;entryY=1;" target="mRQTRkCE-5xtZGmJmvK6-38">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Publiser CloudEvents" mermaidId="e:DDEvents-&gt;A3Events#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.74;entryX=0.5;entryY=0;" mermaidBaseValue="Publiser CloudEvents" id="mRQTRkCE-5xtZGmJmvK6-49">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-43" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.5434;exitY=1;entryX=0.4718;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-43" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.5434;exitY=1;entryX=0.4718;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:Estate-&gt;Declaration#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.6;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-50">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=0;exitY=0.3333;entryX=1;entryY=0.633;" target="mRQTRkCE-5xtZGmJmvK6-44">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=0;exitY=0.3333;entryX=1;entryY=0.633;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-44">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Publiser app-event" mermaidId="e:Declaration-&gt;A3Events#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.47;exitY=0;entryX=0;entryY=0.93;" mermaidBaseValue="Publiser app-event" id="mRQTRkCE-5xtZGmJmvK6-51">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-44" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.6834;exitY=1;entryX=0.3589;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-44" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;exitX=0.6834;exitY=1;entryX=0.3589;entryY=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A3Events-&gt;Estate#0" mermaidBaseStyle="curved=1;startArrow=block;startSize=7;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.54;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-52">
-          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-39" style="curved=1;startArrow=block;startSize=7;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;exitX=0.5809;exitY=0;entryX=0.4162;entryY=1;" target="mRQTRkCE-5xtZGmJmvK6-42">
+          <mxCell edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-39" style="curved=1;startArrow=block;startSize=7;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;exitX=0.5809;exitY=0;entryX=0.4162;entryY=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-42">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Altinn&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));&quot;&gt;Korrespondanse&lt;/span&gt;" mermaidId="n:A2Correspondance" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Altinn 2 Korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-5">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="233" x="180" y="810" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="54" width="229.30995475113122" x="620.0226244343891" y="780" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Domstol administrasjonen" mermaidId="n:DA" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-53">
-          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="148" width="528" x="3308" y="1790" as="geometry" />
+        <UserObject label="Domstoladministrasjonen" mermaidId="n:DA" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-53">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="206" width="870" x="2890" y="1754" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Hendelseslista" mermaidId="n:DAFeed" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Hendelseslista" id="mRQTRkCE-5xtZGmJmvK6-54">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="162" x="10" y="20" as="geometry" />
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="56.56727272727273" y="87.83783783783784" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Domstol Administrasjonen" mermaidId="n:DA_Node" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol Administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-55">
-          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="54" width="246" x="10" y="84" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Bruker" mermaidId="n:User" mermaidBaseStyle="html=1;shape=image;imageAspect=0;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/regular/user.svg;fillColor=default;strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Bruker" id="mRQTRkCE-5xtZGmJmvK6-56">
-          <mxCell parent="1" style="html=1;shape=image;imageAspect=0;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/7.x/svgs/regular/user.svg;fillColor=default;strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="79" width="60" x="1109" y="300" as="geometry" />
+        <UserObject label="Domstoladministrasjonen" mermaidId="n:DA_Node" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol Administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-55">
+          <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="489.99727272727273" y="87.83891891891892" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Logger inn" mermaidId="e:User-&gt;A3Authz#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Logger inn" id="mRQTRkCE-5xtZGmJmvK6-58">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-56" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-38">
+          <mxCell edge="1" parent="1" source="b7xdcVu81Tnr1B8ahJKg-2" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-38">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Henter roller" mermaidId="e:A3Authz-&gt;DDAuthz#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.28;exitY=1;entryX=1;entryY=0.35;" mermaidBaseValue="Henter roller" id="mRQTRkCE-5xtZGmJmvK6-60">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-38" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-26">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-38" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-26">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Henter roller" mermaidId="e:Estate-&gt;DDAuthz#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.3;entryX=0.51;entryY=1;" mermaidBaseValue="Henter roller" id="mRQTRkCE-5xtZGmJmvK6-61">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-26">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-26">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Henter skifteerklæring" mermaidId="e:DA_Node-&gt;Estate#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.15;" mermaidBaseValue="Henter skifteerklæring" id="mRQTRkCE-5xtZGmJmvK6-62">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-55" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-42">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-55" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-42">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A3Events-&gt;DA_Node#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.89;entryX=0;entryY=0.19;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-63">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-39" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-55">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-39" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-55">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Poll hvert 5. minutt" mermaidId="e:Feedpoller-&gt;DDEvents#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0;entryY=0.41;" mermaidBaseValue="Poll hvert 5. minutt" id="mRQTRkCE-5xtZGmJmvK6-64">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-28" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-43">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-28" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-43">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Henter hendelsesliste" mermaidId="e:DDEvents-&gt;DAFeed#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0;entryY=0.35;" mermaidBaseValue="Henter hendelsesliste" id="mRQTRkCE-5xtZGmJmvK6-65">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-43" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-54">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-43" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-54">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:Estate-&gt;MetaDb#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.81;entryX=1;entryY=0.04;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-66">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-25">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-25">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A2Correspondance-&gt;User#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.55;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-68">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-5" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-56">
-            <mxGeometry relative="1" as="geometry" />
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-5" style="curved=0;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=1;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="b7xdcVu81Tnr1B8ahJKg-2">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3626.5" y="530" />
+              </Array>
+            </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="XrT4xMYESNk_eO4uSYzE-3" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="715" width="1050" x="1770" y="1350" as="geometry" />
+        <mxCell id="XrT4xMYESNk_eO4uSYzE-3" connectable="0" parent="1" style="group;fontSize=20;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="715" width="1050" x="1660" y="1330" as="geometry" />
         </mxCell>
         <UserObject label="DAN (data.altinn.no)" mermaidId="n:DAN" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="DAN (data.altinn.no)" id="mRQTRkCE-5xtZGmJmvK6-6">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;container=0;" vertex="1">
-            <mxGeometry height="410" width="630" x="270" y="140" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=0;" vertex="1">
+            <mxGeometry height="490" width="630" x="270" y="140" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Bits - &#39;Kundeforhold&#39;" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L61" linkTarget="_blank" tooltip="Gå til Github - Kundeforhold" mermaidId="n:BankKf" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Bits - &#39;Kundeforhold&#39;" id="mRQTRkCE-5xtZGmJmvK6-7">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="310" y="220" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="310" y="220" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Bits - &#39;Kontotransaksjoner&#39;" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L70" linkTarget="_blank" tooltip="Gå til Github - Kontotransaksjoner" mermaidId="n:BankKt" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Bits - &#39;Kontotransaksjoner&#39;" id="mRQTRkCE-5xtZGmJmvK6-9">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="310" y="400" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="310" y="460" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Kartverket - &#39;Grunnbok&#39;" link="https://github.com/data-altinn-no/plugin-kartverket" linkTarget="_blank" tooltip="Gå til Github - Kartverket" mermaidId="n:Kartverket" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Kartverket - &#39;Grunnbok&#39;" id="mRQTRkCE-5xtZGmJmvK6-11">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="610" y="220" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="610" y="220" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Løsøreregisteret - &#39;Ektepakt&#39;" link="https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/Ektepakt.cs#L66" linkTarget="_blank" tooltip="Gå til Github - Ektepakt" mermaidId="n:MarriagePact" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Løsøreregisteret - &#39;Ektepakt&#39;" id="mRQTRkCE-5xtZGmJmvK6-13">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="610" y="340" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="610" y="378" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 SVV - &#39;Kjoretoy&#39;" link="https://github.com/data-altinn-no/plugin-statensvegvesen" linkTarget="_blank" tooltip="Gå til Github - SVV" mermaidId="n:SVV" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 SVV - &#39;Kjoretoy&#39;" id="mRQTRkCE-5xtZGmJmvK6-10">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="310" y="280" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="310" y="299" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Bits - &#39;Kontodetaljer&#39;" link="https://github.com/data-altinn-no/plugin-banking/blob/main/src/Altinn.Dan.Plugin.Banking/Plugin.cs#L79" linkTarget="_blank" tooltip="Gå til Github - Kontodetaljer" mermaidId="n:BankKd" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Bits - &#39;Kontodetaljer&#39;" id="mRQTRkCE-5xtZGmJmvK6-8">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="310" y="460" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="310" y="540" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Norsk pensjon - &#39;NorskPensjon&#39;" link="https://github.com/data-altinn-no/plugin-pensjon" linkTarget="_blank" tooltip="Gå til Github - Norskpensjon" mermaidId="n:NorskPensjon" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Norsk pensjon - &#39;NorskPensjon&#39;" id="mRQTRkCE-5xtZGmJmvK6-12">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="610" y="280" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="610" y="299" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Folkeregisteret - &#39;FregPerson&#39;" link="https://github.com/data-altinn-no/plugin-skatteetaten/blob/main/src/Dan.Plugin.Skatteetaten/Freg.cs#L97" linkTarget="_blank" tooltip="Gå til Github - Folkeregisteret" mermaidId="n:Frreg" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Folkeregisteret - &#39;FregPerson&#39;" id="mRQTRkCE-5xtZGmJmvK6-14">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="610" y="400" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="610" y="460" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:BankKt-&gt;SVV#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-17">
@@ -350,31 +349,34 @@
           </mxCell>
         </UserObject>
         <UserObject label="🔗 Enhetsregisteret - &#39;Virksomhetsinformasjon&#39;" link="https://github.com/data-altinn-no/plugin-brreg/blob/main/src/Dan.Plugin.Brreg/UnitBasicInformation.cs#L83" linkTarget="_blank" tooltip="Gå til Github - Enhetsregisteret" mermaidId="n:Brreg" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🔗 Enhetsregisteret - &#39;Virksomhetsinformasjon&#39;" id="mRQTRkCE-5xtZGmJmvK6-15">
-          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=18;" vertex="1">
-            <mxGeometry height="50" width="250" x="310" y="340" as="geometry" />
+          <mxCell parent="XrT4xMYESNk_eO4uSYzE-3" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
+            <mxGeometry height="60" width="250" x="310" y="378" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="XrT4xMYESNk_eO4uSYzE-4" edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-20" value="">
+        <mxCell id="XrT4xMYESNk_eO4uSYzE-4" edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-20" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1377" y="1873" as="sourcePoint" />
             <mxPoint x="5360" y="1283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Send korrespondanse" mermaidId="e:TaskQ-&gt;A2Correspondance#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.21;entryX=0;entryY=0.59;" mermaidBaseValue="Send korrespondanse" id="mRQTRkCE-5xtZGmJmvK6-67">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-27" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=18;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-5">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-27" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=20;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Helvetica;fontColor=light-dark(#333333,#cccccc);rounded=0;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-5">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:Estate-&gt;TaskQ#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.83;entryX=1;entryY=0.25;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-59">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-27">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-42" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-27">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:Estate-&gt;DAN#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;curved=1;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.76;entryX=0;entryY=0.13;" mermaidBaseValue="" id="mRQTRkCE-5xtZGmJmvK6-69">
-          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-20" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=18;noEdgeStyle=1;" target="mRQTRkCE-5xtZGmJmvK6-6">
+          <mxCell edge="1" parent="1" source="mRQTRkCE-5xtZGmJmvK6-20" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;fontSize=20;noEdgeStyle=1;fontFamily=Helvetica;" target="mRQTRkCE-5xtZGmJmvK6-6">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="b7xdcVu81Tnr1B8ahJKg-2" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;fillColor=#2072B8;aspect=fixed;fontSize=20;fontFamily=Helvetica;" value="Bruker" vertex="1">
+          <mxGeometry height="79" width="72.68" x="3295.66" y="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
