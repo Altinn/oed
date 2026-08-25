@@ -154,7 +154,7 @@
             <mxGeometry as="geometry" x="30" y="50" width="290" height="70" />
           </mxCell>
         </UserObject>
-        <UserObject label="Domstoladministrasjonen" mermaidId="n:DA_Node" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol Administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-55">
+        <UserObject label="DA fagsystem" mermaidId="n:DA_Node" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Domstol Administrasjonen" id="mRQTRkCE-5xtZGmJmvK6-55">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-53" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#4b5563;strokeColor=#95acc9;fontColor=#fff;fontFamily=Helvetica;fontSize=20;" vertex="1">
             <mxGeometry as="geometry" x="30" y="150" width="290" height="70" />
           </mxCell>
