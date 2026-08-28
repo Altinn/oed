@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jPhfbrwJ7afIqJezLMGa">
-    <mxGraphModel dx="2060" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="2169" math="0" shadow="0">
+    <mxGraphModel dx="1717" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="2169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,9 @@
             <mxGeometry height="100" width="250" x="340" y="235" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ZwzPzqGa1WCbiXD-ek_v-1" edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="mRQTRkCE-5xtZGmJmvK6-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" target="privat-skifte-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Digitalt Dødsbo (OED)" id="mRQTRkCE-5xtZGmJmvK6-42">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
             <mxGeometry height="100" width="250" x="45" y="415" as="geometry" />
@@ -104,7 +107,10 @@
             <mxGeometry height="100" width="250" x="45" y="55" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Privat skifte" id="privat-skifte-1">
+        <mxCell id="ZwzPzqGa1WCbiXD-ek_v-2" edge="1" parent="mRQTRkCE-5xtZGmJmvK6-37" source="privat-skifte-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="mRQTRkCE-5xtZGmJmvK6-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Privat skifteerklæring" id="privat-skifte-1">
           <mxCell parent="mRQTRkCE-5xtZGmJmvK6-37" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#025fa6;strokeColor=#b0d8f7;fontColor=#fff;fontFamily=Helvetica;fontSize=20;rounded=1;absoluteArcSize=1;arcSize=16;" vertex="1">
             <mxGeometry height="100" width="250" x="340" y="775" as="geometry" />
           </mxCell>
@@ -156,7 +162,7 @@
           </mxCell>
         </UserObject>
         <UserObject label="Domstoladministrasjonen" id="mRQTRkCE-5xtZGmJmvK6-53">
-          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=0;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1">
+          <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;rounded=1;absoluteArcSize=1;arcSize=26;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
             <mxGeometry height="211" width="635" x="945" y="1209" as="geometry" />
           </mxCell>
         </UserObject>
