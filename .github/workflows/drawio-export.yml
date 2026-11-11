@@ -35,6 +35,7 @@ jobs:
           action-mode: all
           remove-page-suffix: true
           embed-svg-fonts: false
+          border: 100
           svg-theme: light
 
       - name: Suffix light SVGs
@@ -54,6 +55,7 @@ jobs:
           action-mode: all
           remove-page-suffix: true
           embed-svg-fonts: false
+          border: 100
           svg-theme: dark
 
       - name: Suffix dark SVGs
