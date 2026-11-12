@@ -8,6 +8,12 @@ Lyseblå betyr at Digitalt Dødsbo-teamet er ansvarlig for tjenesten.
   <img alt="Arkitekturdiagram – Digitalt Dødsbo" src="docs/oed-light.svg">
 </picture>
 
+## Flere diagrammer
+
+- [Livsløp for et dødsbo](docs/livslop.md)
+- [TaskQueue](docs/taskqueue.md)
+- [Autentisering og tokens](docs/autentisering.md)
+
 ## Komponenter
 
 ### Digitalt Dødsbo
