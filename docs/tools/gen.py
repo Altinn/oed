@@ -85,6 +85,7 @@ DAN_GAP = (DAN_W - 2 * PAD - 5 * DAN_NW) / 4
 
 # channel x positions between DD and Altinn 3
 CH_META, CH_DAN, CH_TQ = DD_X + DD_W + 35, DD_X + DD_W + 70, DD_X + DD_W + 105
+CH_AZ = DD_X + DD_W + 140  # Altinn Events -> Authz
 
 cells = []
 geo = {}
@@ -234,6 +235,12 @@ edge(n(50), OED, LEGACY, exit=(0.85, 1), entry=(0.5, 0),
 edge(n(51), LEGACY, EVENTS, "Publiser app-event", exit=(0.5, 1), entry=(1, 0.25),
      points=[(at(LEGACY, 0.5, 1)[0], at(EVENTS, 1, 0.25)[1])])
 edge(n(52), EVENTS, OED, both=True, exit=(0.5, 0), entry=(0.5, 1))
+# Authz subscribes to the same events and sets the heirs' roles from them; OED only sets proxy roles
+gap_r3_r4 = (ROW[3] + H + ROW[4]) / 2
+gap_az_meta = (ROW[2] + H + ROW[3]) / 2
+edge("events-authz", EVENTS, AUTHZ, exit=(0.1, 0), entry=(0.5, 1),
+     points=[(at(EVENTS, 0.1, 0)[0], gap_r3_r4), (CH_AZ, gap_r3_r4),
+             (CH_AZ, gap_az_meta), (at(AUTHZ, 0.5, 1)[0], gap_az_meta)])
 def right_of_channels(x_start, x_end):
     """Relative label position that centres a straight edge's label between the channels and Altinn 3."""
     want = (CH_TQ + 10 + COL_A) / 2
