@@ -61,7 +61,7 @@ DD_L = DD_X + PAD
 DD_R = DD_L + W + 80
 DD_W = DD_R + W + PAD - DD_X
 
-ALT_X = DD_X + DD_W + 260  # channel between the two containers (room for edge labels right of the channels)
+ALT_X = DD_X + DD_W + 210  # channel between the two containers (room for edge labels right of the channels)
 COL_A = ALT_X + PAD
 COL_B = COL_A + W + 150
 COL_C = COL_B + W + 110
@@ -73,15 +73,18 @@ HUB_Y = ROW[2] - (HUB_H - H) // 2
 ALT_H = ROW[4] + H + 44 - TOP
 DD_H = ROW[5] + H + 44 - TOP
 
-DOM_Y = TOP + ALT_H + 64
+DOM_Y = TOP + ALT_H + 84
 DOM_ROW = DOM_Y + HEADER + PAD
 DOM_H = DOM_ROW + H + 40 - DOM_Y
 
-DAN_Y = max(DOM_Y + DOM_H, TOP + DD_H) + 80
-DAN_X, DAN_W = DD_X, ALT_X + ALT_W - DD_X
-DAN_ROW = DAN_Y + HEADER + PAD
+# DAN is a column to the right of Altinn 3 / Domstoladministrasjonen, so the diagram is close to 16:9
 DAN_NW = 290
-DAN_GAP = (DAN_W - 2 * PAD - 5 * DAN_NW) / 4
+DAN_COUNT = 9
+DAN_Y = TOP
+DAN_X, DAN_W = ALT_X + ALT_W + 60, DAN_NW + 2 * PAD
+DAN_H = max(DOM_Y + DOM_H, TOP + DD_H) - DAN_Y
+DAN_ROW = DAN_Y + HEADER + PAD
+DAN_GAP = (DAN_H - HEADER - 2 * PAD - DAN_COUNT * H) / (DAN_COUNT - 1)
 
 # channel x positions between DD and Altinn 3
 CH_META, CH_DAN, CH_TQ = DD_X + DD_W + 35, DD_X + DD_W + 70, DD_X + DD_W + 105
@@ -184,7 +187,7 @@ vertex(HENDELSER, "Hendelsesliste", THEIRS, COL_A, DOM_ROW, parent=DOMSTOL)
 vertex(DA, "DA fagsystem", THEIRS, COL_B, DOM_ROW, parent=DOMSTOL)
 
 # ---- DAN ----
-vertex(DAN, "DAN (data.altinn.no)", title(28), DAN_X, DAN_Y, DAN_W, DAN_ROW + 2 * H + 44 + PAD - DAN_Y)
+vertex(DAN, "DAN (data.altinn.no)", title(28), DAN_X, DAN_Y, DAN_W, DAN_H)
 dan = [
     (n(7), "Bits - Kundeforhold"), (n(9), "Bits - Kontotransaksjoner"), (n(8), "Bits - Kontodetaljer"),
     (n(15), "Enhetsregisteret - Virksomhetsinformasjon"), (n(13), "Løsøreregisteret - Ektepakt"),
@@ -192,10 +195,7 @@ dan = [
     (n(12), "Norsk pensjon - NorskPensjon"), (n(10), "SVV - Kjøretoy"),
 ]
 for i, (id, text) in enumerate(dan):
-    row, col = divmod(i, 5)
-    step = DAN_NW + DAN_GAP
-    x = DAN_X + PAD + col * step + (step / 2 if row else 0)
-    vertex(id, text, THEIRS, x, DAN_ROW + row * (H + 44), DAN_NW, H, parent=DAN)
+    vertex(id, text, THEIRS, DAN_X + PAD, round(DAN_ROW + i * (H + DAN_GAP), 2), DAN_NW, H, parent=DAN)
 
 # ---- edges ----
 user_y = 18 + BH / 2
@@ -222,8 +222,10 @@ edge(n(36), ADMIN, META, exit=(1, 0.5), entry=(0, 0.5))
 edge(n(67), TQ, KORR, "Send korrespondanse", exit=(1, 0.25), entry=(0, 0.25))
 
 # OED -> DAN
-edge("XrT4xMYESNk_eO4uSYzE-4", OED, DAN, exit=(0, 0.92), entry=(round((CH_DAN - DAN_X) / DAN_W, 4), 0),
-     points=[(CH_DAN, at(OED, 0, 0.92)[1]), (CH_DAN, DAN_Y)])
+# over the top of OED, between row 1 and the OED box, then straight right into the DAN column
+dan_x0 = at(OED, 0.85, 0)[0]
+edge("XrT4xMYESNk_eO4uSYzE-4", OED, DAN, exit=(0.85, 0), entry=(0, round((gap_r1_hub - DAN_Y) / DAN_H, 4)),
+     points=[(dan_x0, gap_r1_hub), (DAN_X, gap_r1_hub)])
 
 # declarations and events
 edge("ZwzPzqGa1WCbiXD-ek_v-1", OED, PRIVAT, exit=(0.15, 1), entry=(0.5, 0),
@@ -242,8 +244,8 @@ edge("events-authz", EVENTS, AUTHZ, exit=(0.1, 0), entry=(0.5, 1),
      points=[(at(EVENTS, 0.1, 0)[0], gap_r3_r4), (CH_AZ, gap_r3_r4),
              (CH_AZ, gap_az_meta), (at(AUTHZ, 0.5, 1)[0], gap_az_meta)])
 def right_of_channels(x_start, x_end):
-    """Relative label position that centres a straight edge's label between the channels and Altinn 3."""
-    want = (CH_TQ + 10 + COL_A) / 2
+    """Relative label position that centres a straight edge's label in the gap between the two containers."""
+    want = (DD_X + DD_W + COL_A) / 2
     return round((want - (x_start + x_end) / 2) / ((x_end - x_start) / 2), 3)
 
 
@@ -260,7 +262,7 @@ fx, fy = at(FEED, 0.5, 1)
 hx, hy = at(HENDELSER, 0, 0.5)
 seg_v, seg_h = hy - fy, hx - fx
 edge("feedpoller-proxy-da", FEED, HENDELSER, "Videresender (proxy)", exit=(0.5, 1), entry=(0, 0.5),
-     points=[(fx, hy)], label_pos=round((seg_v + (CH_TQ - fx) + (hx - CH_TQ) / 2) / ((seg_v + seg_h) / 2) - 1, 3))
+     points=[(fx, hy)], label_pos=round((seg_v + ((DD_X + DD_W + hx) / 2 - fx)) / ((seg_v + seg_h) / 2) - 1, 3))
 edge(n(63), EVENTS, DA, exit=(0.5, 1), entry=(0.5, 0))
 
 ch_right = ALT_X + ALT_W - 20
